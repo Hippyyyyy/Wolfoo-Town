@@ -1,0 +1,2051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>_WolfooShoppingMall</RootNamespace>
+    <ProjectGuid>{FF286809-4CFA-00F6-AE55-863A76CDD236}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_7;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2022.3.7f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\UnityIn\2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\UnityIn\2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\BlueDoor.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\FocusedInputFieldChangedEventArgs.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Focus\FocusController.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\OptionScrollView.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\BathEquipmentOptionScrollItem.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Remove Ads\RemoveAdsButton.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Stove.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\SlotView\ButtonResetCharacter.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Piano.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\DrawPictureTopic.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Floor.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\CanvasPopupDemo.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\BackItemDataSO.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\AdsPanel.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\CanvasKeyboard.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Fertilizer.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\Core\Data\Triangle.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\VerticalScroll.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\AnimationHelper.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\TutorialController.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\Groceires.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\TableOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Pistil.cs" />
+    <Compile Include="Assets\_Base\Scripts\Others\SlideObj.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scripts\TutorialManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidStringAndObjectCallback.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ICookieManager.cs" />
+    <Compile Include="Assets\SCNLib\Common\AlphaHit.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Television.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Web.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPictureHolder.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureCategory.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\MapController.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\MediterraneanaManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\FanAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\DataSceneManager.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\SwingAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\WaterBottle.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Refrigerator.cs" />
+    <Compile Include="Assets\SCNLib\Observer\EventListenerBase.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\ScrollItem\DrawingScrollItem.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ButtonAddx10.cs" />
+    <Compile Include="Assets\_Base\Scripts\SoundBase.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ScrollItem\CaptureComponentScrollItem.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Manager\GUIManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\BaseketBoard.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\SoundMediterraneanManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\WindChimes.cs" />
+    <Compile Include="Assets\SCNLib\Common\JsonTool.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\FileSelectionMessage.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Modes\ClawMachineMode.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\CampingParkStage.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\Swing.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Modes\HandmadeCakeMode.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\Machine.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Managers\MapOperaController.cs" />
+    <Compile Include="Assets\SCNLib\Admob\BannerSize.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\GiftPanel.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Mediation\IronSource\Externs.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\CinemaCoupleChair.cs" />
+    <Compile Include="Assets\_Base\Scripts\LocalSaveLoadData.cs" />
+    <Compile Include="Assets\SCNLib\Common\GridControlSize.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 1\Cart.cs" />
+    <Compile Include="Assets\SCNLib\Spine\AnimationSpineController.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\ShapeFlowerItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\WebViewOptions.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Common\DummyClient.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\DataManager.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\PaintingObject.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\MaterialCache.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Flower.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\PopupRequestedEventArgs.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\EventSelfHouseRoom.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Platforms\Android\UnityAdsClient.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\ElevatorAnimation.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Table.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\Packer.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\Seesaw.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Manager\SoundBaseManager.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\ScrollInfinityBase.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\BackShapeItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithHttpAuth.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\ItemWorldBase.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\MapMediterraneanController.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scene demo\Demo2.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\MakeupTableOptionScrollItem.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scripts\TutorialSettings.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\PopcornBox.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\VerticalScrollInfinity.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIEffectCapturedImage.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\CharacterScrollItem.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\CampingParkManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\TeaPotWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\ShapeMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ScriptDialogEventArgs.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\NewShelf.cs" />
+    <Compile Include="Assets\Character Creator\Scroll Snap\Scripts\CustomSnap.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Manequi.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ClawMachineToy.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\ToiletPaper.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\FlowerPot.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Subscription\SubscriptionButton.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithPdfCreation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ScrollItem\CharacterScrollItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\FilmTicket.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\StateMachine\StateMachine.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\Tile.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Remove Ads\RemoveAdsPopup.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ItemInBg.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\LightingMachine.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\CafeMachine.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithPointerDownAndUp.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Vibration.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\PizzaBox.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\WindChimesAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\ColorCakeMachine.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\FlowerBox.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\ViewportMaterialView.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\ScrollRectNested.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\AnimatorHelper.cs" />
+    <Compile Include="Assets\SCNLib\Admob\AdmobConfig.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Book.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\SO\ClayModeDataSO.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\SeatWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\GUIManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 1\ClawmachineGame.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Subscription\SubscriptionPopup.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\TouchEventType.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\ThreadDispatcher.cs" />
+    <Compile Include="Assets\SCNLib\Admob\NativeAdvance.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Map 3\WaterBottle.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithFind.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\VerticalScroll.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\OSCursorManager.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\EventKey.cs" />
+    <Compile Include="Assets\SCNLib\EventDispatcher\EventDispatcherExtension.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\DrawingPictureData.cs" />
+    <Compile Include="Assets\SCNLib\Common\LoadSource.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\DoorAnimation.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\UIManager.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\NoticeText.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Player.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\AdsEventManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Living Room\Dirty.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\ShoppingBasket.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\WaterProviderWorld.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\Core\ScratchCardInput.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\ECGMachine.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\SessionCutItem.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\SeesawAnimation.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\BridgeMessage.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\RingToy.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\StickerBackItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Door.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\GiftAnimation.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\TableShape.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\CaptureCharacter.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\AnimationHelper.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Panel\CommingSoonPanel.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\CachingGetter.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\WolfooScrollView.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\TrailFx.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\Room2.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Scripts\DrawPath.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\GarbageCanItem.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\CityTown.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterClothesCategoryEnum.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\RedTable.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\PizzaTopping.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 1\CaptureGame.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\CityAnimationEvent.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\CarpetWorld.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaClothesScrollItem.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\CharacterScrollView.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\FilmMachineAnimation.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\SO\ShapeModeDataSO.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\TileMap.cs" />
+    <Compile Include="Assets\SCNLib\Data\Sample\DataManagerSample.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\PineTreeItem.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaHatScrollItem.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Subscription\TestSubscription.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\DataSceneManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\MockWebView.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Muddy.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\ToiletWorld.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\CapturePicture.cs" />
+    <Compile Include="Assets\SCNLib\Admob\AdsAdmob.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\ReadyPanel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\CushionWorld.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\ParameterTexture.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\IAPManager.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\FaceMask.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\Clothing.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\ButtonWorld.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\UISetupManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\ScorePanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\ItemMove.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\LeafItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\WebViewLogger.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\ModeDataSO.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithFallbackTextureData.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\PencilBackItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\NoAdsPanel.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Carpet.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\Const.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\ItemBoard.cs" />
+    <Compile Include="Assets\_Base\Scripts\Models\DataObject.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\CharacterItemCategory.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ConsoleMessageEventArgs.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Table.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\SandItem.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTea Minigame\Straw.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\ScratchCardManager.cs" />
+    <Compile Include="Assets\SCNLib\Intro video\IntroVideoManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Popcorn.cs" />
+    <Compile Include="Assets\SCNLib\EventDispatcher\EventDestroyListener.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Const.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Parent gate\ParentGateManager.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureClothesAsset.cs" />
+    <Compile Include="Assets\SCNLib\HUDSystem\Button\RippleButton.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidStringAndBoolDelegateCallback.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\ITutorialStep.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\HorizontalScroll.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\MoneyPolime.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\ItemInRefrigerator.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\DragMode.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\CampingParkSakura.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\SessionPractise.cs" />
+    <Compile Include="Assets\SCNLib\Common\Master.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\UrlActionType.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\StarsAVG.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\FloorWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Trash.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\NewCharacterDataSO.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\BeverageWorld.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\CreamHandmade.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\UI\CustomButton.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\NewCharacterUI.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scene demo\Demo5.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\TutorialKey.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Food.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\CoverDragObject.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\AgeSetting.cs" />
+    <Compile Include="Assets\_Base\Scripts\Panel\RemoveAdsOneDayPanel.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\Demo\ScrollInfinityDemoItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Refrigerator.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\AuthRequestedEventArgs.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\CharacterAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\Map.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\CarToy.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureFilter.cs" />
+    <Compile Include="Assets\SCNLib\Singleton\Singleton.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\TutorialPanel.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterColorSwatch.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\MaterialResolver.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\ColorCakeMachineAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Beverage.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithMovablePointer.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\DentistTool.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\WebPluginType.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\CustomRoomItemUI.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\EditorAndroidWebViewEmulator.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\CarryItem.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\ScrollItem\DrawingScrollView.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\PlasticBall.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\WCOptionScrollItem.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\CharacterAnimationManager.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Cabinet.cs" />
+    <Compile Include="Assets\_Base\Scripts\LoadSceneManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\PopupDemo.cs" />
+    <Compile Include="Assets\SCNLib\Admob\Bootstrap.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\ChairOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\HUDSystem\Interface\EventKey.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\TempueratureMachine.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\MopItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\PlassticCup.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\CharacterItem.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\MapBeachVillaController.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Rake.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Scripts\PointDir.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\CharacterDataSO.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\DoorAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\ShapePuzzleGame.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\AndroidWebPlugin.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\PuzzleGameSetting.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\DirtyUtil.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\BackClick.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\OperaStageManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Cake.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\CinemaChair.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\WallPaintingWorld.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\CharacterUIAnimationManager.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaClothesPulledPackage.cs" />
+    <Compile Include="Assets\SCNLib\Common\SafeArea.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Group.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\PaintingWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\ItemDrag.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ConsoleMessageLevel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\CharacterWolfooWorldAnimation.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Common\IUnityAdsClient.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithTouch.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithSettableUserAgent.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\IntroPanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ScrollItem\MakingCreamScrollItem.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\SlotView\CharacterSlotView.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Remove Ads\NoAdsAnim.cs" />
+    <Compile Include="Assets\SCNLib\Common\RandomMaster.cs" />
+    <Compile Include="Assets\SCNLib\HUDSystem\UIPanel\Panel.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Color\UIGradientUtils.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\BeachVillaEventManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Configs\RoomFloorConfig.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\BeverageLid.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\SinkWorld.cs" />
+    <Compile Include="Assets\TestRaycast.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\LineKnife.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Mediation\IronSource\IronSource.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Radio.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\MapCampingParkController.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\NativeKeyboardListener.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ScrolledEventArgs.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\DoorWorld.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\Pizza.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Keyboard.cs" />
+    <Compile Include="Assets\_Base\Scripts\Models\PlayerMe.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\IntroPanel.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\SO\ItemsDataSO.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\MashmallowGame.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTea Minigame\MilkTeaPearl.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\CustomButton.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\DataCharacter.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaStage.cs" />
+    <Compile Include="Assets\_Base\Scripts\SoundTown.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\Tools\MeshGenerator.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\ItemInRefrigerator.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIDissolve.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\ITutorial.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\ChangeSkinItem.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UITransitionEffect.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\FxHolder.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\AdsPanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Plate.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+    <Compile Include="Assets\_Base\Scripts\Models\DataObjectManager.cs" />
+    <Compile Include="Assets\Resources\ToolRemoveScriptError.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Manager\CityManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\LampWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\NumberMode.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\SlotPiece.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\Suitcase.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\TicketPrinter.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Wall.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\WebPluginFactory.cs" />
+    <Compile Include="Assets\_Base\Scripts\BackItems\UIMinigame.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\NoAdsPanel.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidBoolCallback.cs" />
+    <Compile Include="Assets\SCNLib\Draw\DrawTex.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Wardrobe.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\GiftDecal.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Camping.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\ResizeablePanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Living Room\Lamp.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\BagItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\TerminationType.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\ItemMove.cs" />
+    <Compile Include="Assets\Vuplex\WebView\iOS\Scripts\iOSCookieManager.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\CampingParkDataSO.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ObstacleGalaxy.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\VXUtils.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\BreadMachineAnimation.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\CustomRoomItem.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\TeaofCupWorld.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Configs\RoomEventKey.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\FireExtinguisher.cs" />
+    <Compile Include="Assets\_Base\Scripts\Others\DataSetting.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\Helpers\DicerAnimation.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\SelfHouseDataSO.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Color\SliderController.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\PaperBox.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ClawControl.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\PopcornMachineAnimation.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\Tutorial.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\BackPanel.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterDataHolder.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\ScratchCard.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\ScrollSlider.cs" />
+    <Compile Include="Assets\StateMachine\State.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithIme.cs" />
+    <Compile Include="Assets\SCNLib\EventDispatcher\EvenDisableListener.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\PageLoadFailedException.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\HomePanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Modes\IceScreamMode.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\BeachVillaManager.cs" />
+    <Compile Include="Assets\SCNLib\Common\DDOL.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\WoodHorse.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\TutorialConfigData.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scripts\TutorialMoveDirection.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\HospitalAnimAction.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\SimpleWebViewDemo.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureLibrary.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\GlassOfWaterWorld.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\SCNLib\HUDSystem\Button\ButtonBase.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\PianoAnimation.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\CacullationItem.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Pointer.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Demo\MoveFollowPathDemo.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithNativeOnScreenKeyboard.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\WaterProvider.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\MediterraneanDataSO.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\AdvancedWebViewDemo.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\SinkFaucet.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureCategoryEnum.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\PaintingFloor.cs" />
+    <Compile Include="Assets\SCNLib\Common\InternetManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\AndroidOpenGLTextureCreator.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Demo\DrawPathDemo.cs" />
+    <Compile Include="Assets\_Base\Scripts\BackItems\PlayAnimObject.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\CursorHelper.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\PillarAnimation.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\Matrix2x3.cs" />
+    <Compile Include="Assets\Samples\Addressables\1.18.19\Addressables Utility\AddressablesUtility.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Straw.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\ClickCharacterAnim.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ProgressChangedEventArgs.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\CreamMachineAnimation.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\PuzzleGameplay.cs" />
+    <Compile Include="Assets\_Base\Scripts\Testing.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\MainPanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\Ball.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithNative2DMode.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\PaperItem.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\EffectArea.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\Curtains.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\HotDogCar.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Mediation\IronSource\IronSourceClient.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\PlayerScrollView.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Hat.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Tray.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\FoodWorld.cs" />
+    <Compile Include="Assets\_Base\Scripts\SoundBaseRoomManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\BaseWebView.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Curtain.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Pot.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaPulledPackage.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\CurtainAnimation.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\WoodHorse.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\MockCookieManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ScrollItem\DollClothingScrollItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\ShapeGlocery.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\CharacterWorld.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Mediation\IronSource\IIronSourceClient.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\Toy.cs" />
+    <Compile Include="Assets\SCNLib\Spine\TestAnim.cs" />
+    <Compile Include="Assets\Games\Scripts\Manager\Balloon.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Mediation\IronSource\DummyClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Platforms\iOS\AppLovinClient.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureAsset.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\KeyboardManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\Floor.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Box.cs" />
+    <Compile Include="Assets\SCNLib\Data\BinaryDataManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\HUDSystem\Interface\EventKey.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\BrushColorItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\FilmMachine.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Clay.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIGradient.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\WaterBottleAnimation.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\ColorMode.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Api\UnityAds.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\LoadingAnimation.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\CustomFx.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Platforms\Android\AppLovinClient.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ScrollInfityAlphaBase.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\PictureWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\StampedClay.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ClipItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\CanvasWorldSpaceDemo.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\ToneMode.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Test\ScrollController.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\CharacterWolfooWorld.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\ItemPiece.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\OptionViews.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\PeelerAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Character.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\KeyModifier.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\IAPPanel.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\UIBeachVillaManager.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\PointerEventArgs.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\CameraItem.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Path.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Tray.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\CanvasViewportMaterialView.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Leaf.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\CrayonItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\GalaxyMode.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\ShapesManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\BackItem.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+    <Compile Include="Assets\SCNLib\Observer\EventObserver.cs" />
+    <Compile Include="Assets\SCNLib\Common\DOTweenManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithDownloads.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Manager\CityVideo.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\SessionChooseShape.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\UrlChangedMessage.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ExpandableScrollView.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidByteArrayCallback.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\TransformClickItemWorld.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Scripts\CustomPath.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Drag object\DemoDragObject.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Platforms\Mediation\UnityAdsClientFactory.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Sink.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaHatPulledPackage.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterColorCategory.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\ShapeBoard.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\Demo\ScrollInfinityDemoManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\Basket.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\KeyboardUI.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\AudioSources.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\MapHospitalController.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\LabelAttribute.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTeaMachine.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureLibraryManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\DataStorage.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\FocusedInputFieldType.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\PizzaStore.cs" />
+    <Compile Include="Assets\_Base\Scripts\BackItems\TransformBackItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\EventArgs.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\CanvasPointerInputDetector.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Mediation\IronSource\IronSourceClient.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Vegetable.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithFileSelection.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ResultItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Shape.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTea Minigame\MilkTeaFillBar.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\CampingParkDrawingPicture.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\TableWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Lighting.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Fridge.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Lid.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\Sticker.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Platforms\iOS\UnityAdsClient.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\PictureOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\Elevator.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithCursorType.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\RoomBase.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\WheelBarrow.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\CaculationSession.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\CanvasWebViewPrefab.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Managers\SoundOperaManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\LoadingBar.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\WebViewUnavailableException.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\HardwareKeyboardListener.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\EffectPlayer.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\Links.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWebView.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\ControllerMachine.cs" />
+    <Compile Include="Assets\SCNLib\EventDispatcher\EventDispatcher.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Modes\DollClothingMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\DownloadChangedEventArgs.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\CommonItemFunction.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ShapeItem.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\OptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Flour.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Flower.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterFeatureHairAsset.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\CandyCar.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIHsvModifier.cs" />
+    <Compile Include="Assets\_Base\Scripts\FirebaseManager.cs" />
+    <Compile Include="Assets\_Base\Scripts\Others\Edge.cs" />
+    <Compile Include="Assets\_Base\Scripts\Others\CitySetting.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\MagicStick.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\ItemsDataSO.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\BeachVillaDataSO.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\LoadingPanel.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\LoadingPanel.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\MakingCreamAnimation.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\EventManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidWarnings.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidWebPluginRegistrant.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Seat.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Drag object\DragObject.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIFlip.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Platforms\iOS\Externs.cs" />
+    <Compile Include="Assets\Vuplex\WebView\iOS\Scripts\iOSWebView.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\_Scripts\Managers\SelfHouseMaker.cs" />
+    <Compile Include="Assets\SCNLib\Common\FileLib.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ArmController.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaStateController.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\AlphaLearningMode.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\FaceMaskBox.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ConfirmBtn.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\BedWorld.cs" />
+    <Compile Include="Assets\Character Creator\Scroll Snap\Examples\Example 5 (Dynamic Content)\Scripts\DynamicContent.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IPointerInputDetector.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithDeepLinking.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Living Room\MopItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\MagicFan.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\BallAnimation.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Scripts\DragFollowPath.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scene demo\Demo3.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ClawRopeMachine.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaHat.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\CharacterAnimation.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\UIPanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\JumpingToy.cs" />
+    <Compile Include="Assets\_Base\Scripts\ILocalSaveLoad.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\DiceManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\MapLivingController.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\NewCharacterWolfooScrollItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\ItemDrag.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\WaterPurifier.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\LosePanel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Interfaces\ILighting.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Wolfoo.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\Door.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\MixedContentMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\JsonArrayWrapper.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Speaker.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\CommingSoonPanel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\IAP\IAPPackData.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\IWebPlugin.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\PlasticStraw.cs" />
+    <Compile Include="Assets\Character Creator\Resources\ChangeFeatureCharacter.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\DataCharacterManager.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\EventRoomBase.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Scale.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\WoodHorseAnimation.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\MouseButton.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\CampingParkEventManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Bot.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\DentistMachine.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\CompoundShape.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\Room1.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\BaseWebViewPrefab.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\BathTubWorld.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\CustomAnimation.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithChangingTexture.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\NewCharacterScrollItem.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\Core\ScratchCardRenderer.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\ChairWorld.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Api\AppLovin.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterPartHelper.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\Manager\HotAirBalloon.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\DecorDragItem.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\SO\CharacterSlotsView.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\FLoor 2\CreamGame.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\SingleGarbage.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Map 3\DecorTree.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\UrlChangedEventArgs.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Progress.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Cabinet.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\SO\GameDataSO.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\ChairItem.cs" />
+    <Compile Include="Assets\SCNLib\IAP\Scripts\Parent gate\ParentGatePopup.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\TracingManager.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ButtonAddCharacter.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ClickedEventArgs.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\BedOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\AlertButton.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\Erase.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Managers\OperaEventManager.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\SoundCampingParkManager.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scene demo\Demo4.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\FruitDecorMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\TrialExpiredException.cs" />
+    <Compile Include="Assets\_Base\Scripts\SoundCharacterManager.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\ConsoleBridgeMessage.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\UIEffectBase.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Obstacle.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\DefaultPointerInputDetector.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithMutableAudio.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\BackPanel.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\BackgroundMoveItem.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\DoorMainAnim.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\Ambulance.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\ShapeBoardFlower.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithFallbackVideo.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\GiftPackZone.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\CommonUtil.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Food.cs" />
+    <Compile Include="Assets\SCNLib\Admob\AdsManager.cs" />
+    <Compile Include="Assets\_Base\Scripts\BaseDataManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\GUIManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\RoomFlower.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\BaseKeyboard.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Cookie.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scene demo\Demo1.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\SaveLoadDataTutorial.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\JumpingToyAnimation.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\ToothBrushWorld.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\XritPointerEventHelper.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\CharacterPaletteColorItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\iOS\Scripts\iOSWebPlugin.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\WashstandOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\UIMediterraneanManager.cs" />
+    <Compile Include="Assets\SCNLib\Observer\IntEventObserver.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\LightingWorld.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\GAManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\AlphabetItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Peeler.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\VulkanDelayedTextureDestroyer.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\DecorItemViews.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\Glasses.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\OthersOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Bed.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\BlackPanel.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Carpet.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Logo.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\HorizontalScrollInfinity.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaClothesManagerItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithPopups.cs" />
+    <Compile Include="Assets\SCNLib\HUDSystem\Manager\HUDSystem.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\FlowerGround.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithNativeJavaScriptDialogs.cs" />
+    <Compile Include="Assets\_Base\Scripts\DataTownTransporter.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\FloorPaintingOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\BalloonAnimation.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Scripstable Object\HouseDataSO.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Egg.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Demo\DividePathDemo.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\WaterBag.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\EventManager.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\Managers\UICampingParkManager.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\Steps\TutorialWithBG.cs" />
+    <Compile Include="Assets\SCNLib\Common\Timer.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterTransporter.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\IAP\IAPDataManager.cs" />
+    <Compile Include="Assets\SCNLib\EventDispatcher\IEventParams.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\DrawingItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\ForceDark.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\CushionOptionScrollItem.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterPaletteController.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Mediation\IronSourceClientFactory.cs" />
+    <Compile Include="Assets\_Base\Scripts\GameController.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Peanut.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\CharacterPaletteItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\PopupMode.cs" />
+    <Compile Include="Assets\ScratchCard\Scripts\EraseProgress.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Stat\BackItem.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\OperaHatSkinHolder.cs" />
+    <Compile Include="Assets\SCNLib\Common\KeepRatio.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\MashmallowMachineAnimation.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\AndroidUtils.cs" />
+    <Compile Include="Assets\SCNLib\Common\ObjectPool.cs" />
+    <Compile Include="Assets\SCNLib\Common\DelayCallMaster.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\Room3.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\VideoBannerPanel.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIShadow.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Pan.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Living Room\PuzzleGameItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\HeatCaculatorPanel.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\CampingParkBrush.cs" />
+    <Compile Include="Assets\SCNLib\Tools\Custom Inspector\DrawIfAttribute.cs" />
+    <Compile Include="Assets\SCNLib\Observer\StringEventObserver.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\DollToyMap.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\SettingPanel.cs" />
+    <Compile Include="Assets\ScratchCard\Demo\Scripts\ScratchDemoUI.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\Clothesline.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\HorizontalScrollAlpha.cs" />
+    <Compile Include="Assets\SCNLib\Observer\ParamsEventObserver.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 1\Picture.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\WoodHorseAnimation.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\FileSelectionEventArgs.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\EyeAnimation.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\SO\AlphaLearningDataSO.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\WallWorld.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Griller.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidFileSelectionCallback.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\WC.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIShiny.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\TowerCake.cs" />
+    <Compile Include="Assets\_Base\Scripts\Panel\NoInternetPanel.cs" />
+    <Compile Include="Assets\_Base\Scripts\Panel\PopupManager.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\LegController.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ToyMap\SlideToy.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\SprinkleItem.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\DragItemWorld.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\BumperCar.cs" />
+    <Compile Include="Assets\SCNLib\Admob\AdsBootstrap.cs" />
+    <Compile Include="Assets\Character Creator\Scroll Snap\Examples\Example 5 (Dynamic Content)\Scripts\ButtonScroll.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\HandMadeCake.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\RectDetection.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\EventManager.cs" />
+    <Compile Include="Assets\_Base\Scripts\Models\DataCommit.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cinema Room\PopcornMachine.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ButtonWorldSpace.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\ScrollInfinityAlphaItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\CameraRotator.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\Mashmallow.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\StringWithIdBridgeMessage.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\FruitFertilizer.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Platforms\iOS\Externs.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Pencil.cs" />
+    <Compile Include="Assets\SCNLib\Action Lib\Custom path\Demo\DragFollowPathDemo.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\WallPaintingOptionScrollItem.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\ITutorialParams.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\CarryItemWorld.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\StringBridgeMessage.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Common\IAppLovinClient.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\Managers\SoundBeachVillaManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\ElevatorPanel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\IAP\IAPHelper.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\FlowerFertilizer.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\SCNLib\UI extend\Scroll infinity\ScrollItemBase.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\PlasticBubbleAnimation.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\Led.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\BackItemWorld.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\ClayMode.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\AppLovin\Platforms\Mediation\AppLovinClientFactory.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIEffect.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\CreamMachine.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\PlayerPanel.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Guitar.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\HouseAnimation.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\HorseFerrisWheel.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTea Minigame\MilkTeaGame Manager.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\MusicToggle.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\TerminatedEventArgs.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Manager\UISetupManager.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\MapPlaygroundController.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\BagItem.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\FloorPaintingWorld.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Mediation\UnityAds\Common\DummyClient.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\ATM.cs" />
+    <Compile Include="Assets\_WolfooHospital\Scripts\News.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 3\CoupleSeesaw.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\SpeakerWorld.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Shovel.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Others\NewPlayerPanel.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\MagnifyingGlass.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Trunk.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Demos\Scripts\CanvasWebViewDemo.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\Droptown.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\ShadowStyle.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\Internal\DownloadMessage.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\PlayerPanel.cs" />
+    <Compile Include="Assets\_Base\Scripts\BackItems\NormalCharacterAnimation.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\_WolfooOpera\Scripts\Perfume.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\TouchEvent.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\Cashier.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\Area.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\AlphaTable.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\Chessman.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\IAP\FurnitureAsset.cs" />
+    <Compile Include="Assets\_Base\Tutorial\Scripts\TutorialStep.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Modes\CaptureMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\AndroidCookieManager.cs" />
+    <Compile Include="Assets\SCNLib\Draw\Demo\DemoManager.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\FloorButton.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\PointerOptions.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\ShapesTable.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Interfaces\IFood.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\ChartboostAd.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Floor 1\CapacityBackItem.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTeaCup.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\PotItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\IAPPanel.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Scroll\CharacterFeatureSet.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\GasStove.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Panels\LosePanel.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\Items\ScrollItem\IceScreamScrollItem.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\BlurMode.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\MockWebPlugin.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithKeyDownAndUp.cs" />
+    <Compile Include="Assets\_WolfooHouse\Scripts\BackItems\Tree.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\SoundMachine.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\IAP\IAPAssetPack.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Game\StarsEffect.cs" />
+    <Compile Include="Assets\_WolfooCity\Scripts\SpineAnimation\ScissorAnimation.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Puzzle Gameplay\Scripts\Piece.cs" />
+    <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\BaseMeshEffect.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\LoadFailedEventArgs.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\FridgeDoor.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Piano.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\ProgressChangeType.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\Fruit.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\AndroidWebView.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Panel\BuyFailPanel.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\DiceGameSetting.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Mode\GotoSchoolMode.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\Swipe.cs" />
+    <Compile Include="Assets\_WolfooBeachVilla\Scripts\ScrollItems\BathtubOptionScrollItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Living Room\DicingGameItem.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\WebViewPrefab.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\ControllerCarry.cs" />
+    <Compile Include="Assets\_WolfooSelf-Governing_House\SelfHouse-Mediterranean\Scipts\Managers\MediterraneanEventManager.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\MilkTea Minigame\MilkTeaMap.cs" />
+    <Compile Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Scripts\DiceGameplay.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\SingletonManager.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\CarryItem.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\ShoppingMap\PeanutZone.cs" />
+    <Compile Include="Assets\TracingBook\Scripts\Utility\Colors.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\SpineAnimation\TreeAnimation.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ExpandedSizeItem.cs" />
+    <Compile Include="Assets\_WolfooPlayground\Scripts\SoundPlaygroundManager.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\CharacterHairCategoryEnum.cs" />
+    <Compile Include="Assets\_Room-Base\Scripts\Room Items\WardrobeWorld.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\CampingParkStatue.cs" />
+    <Compile Include="Assets\SCNLib\HUDSystem\UIPanel\UIPanels.cs" />
+    <Compile Include="Assets\_WolfooCampingPark\Scripts\DrawingPicture Minigame\FlowerItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\Printer.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Core\Scripts\IWithPixelDensity.cs" />
+    <Compile Include="Assets\_WolfooShoppingMall\_Scripts\BackItem\Cake Room\BreadMachine.cs" />
+    <Compile Include="Assets\Character Creator\Scripts\ScrollingImage.cs" />
+    <Compile Include="Assets\Vuplex\WebView\Android\Scripts\Internal\AndroidStringCallback.cs" />
+    <Compile Include="Assets\SCNLib\Tutorial\Scripts\PointerAnimName.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Character\ChairItem.cs" />
+    <Compile Include="Assets\_WolfooSchool\Scripts\Items\Clay Mode\Petal.cs" />
+    <Compile Include="Assets\Vuplex\WebView\iOS\Scripts\iOSWebPluginRegistrant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\_WolfooShoppingMall\Spines\Shop cake\may banh nuong\may lam banh mi.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F3\Cua thang may\thang may.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect-Shiny.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\_WolfooCity\Animations\Theater_pack\Theater.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\NV 5 tuoi\Pando_5Age_pack\Pando_5Age.atlas.txt" />
+    <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\_WolfooHouse\MiniGame\Dice Gameplay\Spines\xuc xac\xuc xac.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\_WolfooPlayground\Spine\la co\co.atlas.txt" />
+    <None Include="Assets\SCNLib\Tutorial\Anim spine\skeleton.atlas.txt" />
+    <None Include="Assets\_WolfooBeachVilla\Shaders\ShaderOutline.shader" />
+    <None Include="Assets\_WolfooSchool\Animations\Eyes\mat 3\traitim.atlas.txt" />
+    <None Include="Assets\SCNLib\Tutorial\readme.txt" />
+    <None Include="Assets\Parse\Plugins\Unity.Compat.dll" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F3\bap benh\bapbenh.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF-Mobile (UITransition).shader" />
+    <None Include="Assets\ScratchCard\Shaders\MaskProgress.shader" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Analytics.dll" />
+    <None Include="Assets\_Room-Base\Spines\nv\daddy wolf\Dady_Wolf.atlas.txt" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Common.dll" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\kem\icecream\kem chay.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\cay treo\cay tre0.atlas.txt" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Ump.iOS.dll" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect-Dissolve.shader" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Cinema\may ban bong\may bong ngo.atlas.txt" />
+    <None Include="Assets\Vuplex\WebView\iOS\LICENSE_iOS.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F2\door shop toy\cua tro choi.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.Analytics.dll" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.dll" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\binh nuoc\skeleton.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\lan dat set\lan dat set.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Shop cake\chipchip\chip chip11.atlas.txt" />
+    <None Include="Assets\_WolfooHouse\Spines\Rem\cua so pk.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_Sprite (UIDissolve).shader" />
+    <None Include="Assets\_WolfooSchool\Animations\Eyes\mat 4\mat 4.atlas.txt" />
+    <None Include="Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.iOS.dll" />
+    <None Include="Assets\Firebase\Plugins\Firebase.App.dll" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\Fish_pack\ca.atlas.txt" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.iOS.dll" />
+    <None Include="Assets\_WolfooSchool\Animations\door_dung dc\open door.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Shop cake\may in thach\may in thach.atlas.txt" />
+    <None Include="Assets\Parse\Plugins\Unity.Tasks.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\_Room-Base\Spines\nv\piggy\Piggi_5Age.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\hoa huong duong\Hoa huong duong 2.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\_WolfooCity\Animations\Hospital_pack\Hospital.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\molly\Molly.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\dong ho qua lac\dong ho qua lac.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect.cginc" />
+    <None Include="Assets\_WolfooCity\Animations\School_pack\School.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F1\dai phun nc\phun nc.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppAnalytics.dll" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.RemoteConfig.dll" />
+    <None Include="Assets\_WolfooSchool\Animations\door\close door\door.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\buffo\Buffo_5Age.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF-Mobile (UIDissolve).shader" />
+    <None Include="Assets\_WolfooCity\Animations\Cloud_pack\may.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\quat gio\quat.atlas.txt" />
+    <None Include="Assets\_WolfooCity\Animations\cong vien_pack\park_pack.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F3\xich du\xich đu.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\wolfoo\Wolfoo.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect-Transition.shader" />
+    <None Include="Assets\_WolfooCampingPark\Materials\RadialFill.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_Sprite (UIShiny).shader" />
+    <None Include="Assets\Firebase\Plugins\Firebase.TaskExtension.dll" />
+    <None Include="Assets\_WolfooOpera\Spine\rem\rem keo.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\chuong gio\chuong gio.atlas.txt" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Core.dll" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_Sprite (UIEffect).shader" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\cay treo\cay tre0.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\loading\skeleton.atlas.txt" />
+    <None Include="Assets\GoogleMobileAdsNative\link.xml" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\bap benh\bep benh.atlas.txt" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\_WolfooCity\Animations\may giat\may giat.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\pando\Pando_5Age.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\UI-Effect-TMPro.cginc" />
+    <None Include="Assets\GoogleMobileAds\link.xml" />
+    <None Include="Assets\_WolfooSchool\Animations\anim bong bay\bong bay.atlas.txt" />
+    <None Include="Assets\SCNLib\IAP\Scripts\Subscription\Readme.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF-Mobile (UIHsvModifier).shader" />
+    <None Include="Assets\SCNLib\Spine\Readme.txt" />
+    <None Include="Assets\SCNLib\IAP\Readme.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\ngua go\ngua go.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\lucy\Lucy.atlas.txt" />
+    <None Include="Assets\ScratchCard\Shaders\MaskProgressCutOff.shader" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\bong\bong.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\dan_pack\dan nhay mua.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\mommy wolf\Momy_Wolf.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\_WolfooCity\Animations\vong quay ngua go\du quay.atlas.txt" />
+    <None Include="Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.Android.dll" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Vuplex\WebView\Android\LICENSE_Android.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF (UIHsvModifier).shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF (UIDissolve).shader" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Ump.Unity.dll" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect.shader" />
+    <None Include="Assets\_Room-Base\Spines\nv\wolfoo\Wolfoo.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppApp-11_2_0.dll" />
+    <None Include="Assets\TracingBook\Version Changes.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF-Mobile (UIShiny).shader" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Ump.dll" />
+    <None Include="Assets\_WolfooCity\Animations\du quay\quay.atlas.txt" />
+    <None Include="Assets\ScratchCard\Shaders\Mask.shader" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-config-unity\maven-metadata.xml" />
+    <None Include="Assets\_Room-Base\Spines\nv\kat\Kat_5Age.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\Eyes\mat 2\mat 2.atlas.txt" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\_WolfooCity\Animations\Home_pack\Home.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\NV 5 tuoi\Kat_5Age_pack\Kat_5Age.atlas.txt" />
+    <None Include="Assets\Vuplex\WebView\Android\Plugins\proguard-webview-android.txt" />
+    <None Include="Assets\_WolfooCity\Animations\Park_pack\park.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\Eyes\mat 1\mat 1.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Shop cake\bop kem\skeleton.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\piggi mommy\mommy piggy.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-8.4.1_manifest.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F1\door shopping mall\cua sieu thi mo.atlas.txt" />
+    <None Include="Assets\SCNLib\Data\Readme.txt" />
+    <None Include="Assets\_WolfooCity\Animations\Mall_pack\Mall.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Cinema\bong bay\bong bay.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF (UIShiny).shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-EffectCapture.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_Sprite (UITransition).shader" />
+    <None Include="Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.Common.dll" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Cinema\may quay phim\may quay phim.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF (UITransition).shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.dll" />
+    <None Include="Assets\_WolfooSchool\Animations\NV 5 tuoi\Wolfoo_5Age_pack\Wolfoo.atlas.txt" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll" />
+    <None Include="Assets\_Room-Base\Spines\nv\Zebra\Zebra.atlas.txt" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_Sprite (UIHsvModifier).shader" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\cua tu lanh\cua tu.atlas.txt" />
+    <None Include="Assets\_WolfooCity\Animations\beach villa_pack\nha biet thu bien.atlas.txt" />
+    <None Include="Assets\_Room-Base\Spines\nv\alien\Alien_5Age.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\_WolfooHouse\Spines\rem( nha tam)\rem tam.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\NV 5 tuoi\Piggi_5Age_pack\Piggi_5Age.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\NV 5 tuoi\Bufoo_5Age_pack\Buffo_5Age.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Platform.dll" />
+    <None Include="Assets\_WolfooCity\Animations\AmusementPark_pack\Amusement_park.atlas.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\keo cat\keo.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppRemoteConfig.dll" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Android.dll" />
+    <None Include="Assets\SCNLib\IAP\Spine anim\Advertisement.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\Firebase.RemoteConfig.dll" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect-Sprite.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF (UIEffect).shader" />
+    <None Include="Assets\_Room-Base\Spines\nv\lucy\lucy\Lucy.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\Cinema\cua vao\cinema door.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Firebase\Plugins\Google.MiniJson.dll" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F3\durian nhun nhay\durian.atlas.txt" />
+    <None Include="Assets\Vuplex\WebView\Core\Shaders\DefaultWebShader.shader" />
+    <None Include="Assets\Vuplex\WebView\Core\Shaders\AndroidWebShader.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TracingBook\ReadMe.txt" />
+    <None Include="Assets\_WolfooSchool\Animations\cap nhat anim\ngua go\ngua go.atlas.txt" />
+    <None Include="Assets\_WolfooShoppingMall\Spines\F2\cua f2\cửa cine F2.atlas.txt" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.App.dll" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\Shaders\UI-Effect-HSV.shader" />
+    <None Include="Assets\SCNLib\Draw\Shaders\DrawShader.shader" />
+    <None Include="Assets\Coffee\UIExtensions\UIEffect\ForTMPro\Shaders\TMP_SDF-Mobile (UIEffect).shader" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Ump.Android.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\_WolfooSchool\Animations\door\open door\open door.atlas.txt" />
+    <None Include="Assets\ScratchCard\Shaders\Brush.shader" />
+    <None Include="Assets\GoogleMobileAds\Mediation\AppLovin\Plugins\Android\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.RemoteConfig">
+      <HintPath>Assets\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAdsNative.Android">
+      <HintPath>Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Ump.Unity">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Ump.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Ump">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Ump.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAdsNative.Common">
+      <HintPath>Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAdsNative">
+      <HintPath>Assets\GoogleMobileAdsNative\GoogleMobileAdsNative.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\UnityIn\2022.3.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.SoftMaskForUGUI.Editor">
+      <HintPath>Library\ScriptAssemblies\Coffee.SoftMaskForUGUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.SoftMaskForUGUI">
+      <HintPath>Library\ScriptAssemblies\Coffee.SoftMaskForUGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{420FD605-49DB-D536-D894-21F0FC38CC1F}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Test.csproj">
+      <Project>{F4F7D219-75E3-4C63-1C63-EAD8EA696346}</Project>
+      <Name>NaughtyAttributes.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{38249348-E90B-5795-0ABE-0581FEB10877}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInspectorAttributesEditor.csproj">
+      <Project>{4E2DB596-0678-D46F-4862-9B272BF096A8}</Project>
+      <Name>SimpleInspectorAttributesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInspectorAttributes.csproj">
+      <Project>{4B5A82BE-6E5E-1AB6-C4DD-904CC7B39F41}</Project>
+      <Name>SimpleInspectorAttributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="CopyrightNoticeEditor.csproj">
+      <Project>{35DF2559-1660-CBCD-683B-FA67019139B4}</Project>
+      <Name>CopyrightNoticeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleScrollSnap.csproj">
+      <Project>{876857BA-B767-10BA-1746-A69CA10A3763}</Project>
+      <Name>SimpleScrollSnap</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{25DD8836-05A4-EDF1-CF9A-3239E9ACD83E}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleScrollSnapEditor.csproj">
+      <Project>{330308C3-BCBF-EE37-ED62-8D169A6839D6}</Project>
+      <Name>SimpleScrollSnapEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.UIParticle.csproj">
+      <Project>{CEF0F45E-7277-D451-9A24-250A9E8E2765}</Project>
+      <Name>Coffee.UIParticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{F973FE7C-CF29-0A0F-2EC9-A5487463B8F0}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utilities.csproj">
+      <Project>{42731ACB-C65B-EDC3-DADE-A8C6BE7F6B4A}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{0AEC3F9F-AD79-B77F-2498-34A181D1399F}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{ACB4D045-9AC8-CB54-4857-31DBE5A84222}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UtilitiesEditor.csproj">
+      <Project>{2E0E8E5C-2EBF-70A3-6FAD-8EE3FAC1CE77}</Project>
+      <Name>UtilitiesEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
