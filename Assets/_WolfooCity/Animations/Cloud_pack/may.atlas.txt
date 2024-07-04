@@ -1,0 +1,27 @@
+
+may.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+may 1
+  rotate: false
+  xy: 0, 0
+  size: 1418, 730
+  orig: 1418, 730
+  offset: 0, 0
+  index: -1
+may 2
+  rotate: false
+  xy: 1420, 0
+  size: 1252, 730
+  orig: 1252, 730
+  offset: 0, 0
+  index: -1
+may 3
+  rotate: false
+  xy: 2674, 23
+  size: 1152, 707
+  orig: 1152, 707
+  offset: 0, 0
+  index: -1

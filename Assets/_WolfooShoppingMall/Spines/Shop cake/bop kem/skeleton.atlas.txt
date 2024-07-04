@@ -1,0 +1,62 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cam
+  rotate: false
+  xy: 354, 5
+  size: 353, 423
+  orig: 353, 423
+  offset: 0, 0
+  index: -1
+kem do
+  rotate: false
+  xy: 0, 1217
+  size: 647, 785
+  orig: 647, 785
+  offset: 0, 0
+  index: -1
+kem hong
+  rotate: false
+  xy: 0, 430
+  size: 647, 785
+  orig: 647, 785
+  offset: 0, 0
+  index: -1
+kem scl
+  rotate: false
+  xy: 649, 1217
+  size: 647, 785
+  orig: 647, 785
+  offset: 0, 0
+  index: -1
+kem tim
+  rotate: false
+  xy: 1298, 430
+  size: 635, 785
+  orig: 635, 785
+  offset: 0, 0
+  index: -1
+kem xanh
+  rotate: false
+  xy: 649, 430
+  size: 647, 785
+  orig: 647, 785
+  offset: 0, 0
+  index: -1
+tui bat kem xanh
+  rotate: false
+  xy: 1298, 1217
+  size: 647, 785
+  orig: 647, 785
+  offset: 0, 0
+  index: -1
+tui cau vong
+  rotate: false
+  xy: 0, 0
+  size: 352, 428
+  orig: 352, 428
+  offset: 0, 0
+  index: -1

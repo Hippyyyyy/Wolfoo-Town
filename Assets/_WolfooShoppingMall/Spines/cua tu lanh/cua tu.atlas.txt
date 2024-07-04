@@ -1,0 +1,20 @@
+
+cua tu.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+canh 1
+  rotate: true
+  xy: 0, 0
+  size: 575, 1067
+  orig: 575, 1067
+  offset: 0, 0
+  index: -1
+canh 2
+  rotate: true
+  xy: 1069, 0
+  size: 575, 1067
+  orig: 575, 1067
+  offset: 0, 0
+  index: -1

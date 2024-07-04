@@ -1,0 +1,181 @@
+
+park.png
+size: 1503,1051
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buicay1
+  rotate: false
+  xy: 968, 12
+  size: 82, 51
+  orig: 82, 51
+  offset: 0, 0
+  index: -1
+Camp
+  rotate: false
+  xy: 802, 103
+  size: 184, 189
+  orig: 184, 189
+  offset: 0, 0
+  index: -1
+Cayhong
+  rotate: true
+  xy: 771, 24
+  size: 77, 195
+  orig: 77, 195
+  offset: 0, 0
+  index: -1
+Den
+  rotate: true
+  xy: 138, 54
+  size: 26, 100
+  orig: 26, 100
+  offset: 0, 0
+  index: -1
+Ghe
+  rotate: false
+  xy: 381, 2
+  size: 80, 47
+  orig: 80, 47
+  offset: 0, 0
+  index: -1
+Layer 10 copy
+  rotate: false
+  xy: 276, 417
+  size: 541, 135
+  orig: 541, 135
+  offset: 0, 0
+  index: -1
+Layer 1005
+  rotate: true
+  xy: 707, 139
+  size: 276, 93
+  orig: 278, 95
+  offset: 1, 1
+  index: -1
+Layer 1008
+  rotate: false
+  xy: 988, 65
+  size: 234, 57
+  orig: 236, 59
+  offset: 1, 1
+  index: -1
+Layer 5 copy 3
+  rotate: true
+  xy: 1349, 4
+  size: 37, 147
+  orig: 38, 147
+  offset: 1, 0
+  index: -1
+Winter/Land
+  rotate: true
+  xy: 994, 286
+  size: 763, 463
+  orig: 765, 465
+  offset: 1, 1
+  index: -1
+Winter/Land2
+  rotate: true
+  xy: 1261, 28
+  size: 256, 86
+  orig: 258, 88
+  offset: 1, 1
+  index: -1
+Winter/Star
+  rotate: false
+  xy: 1052, 13
+  size: 144, 50
+  orig: 144, 50
+  offset: 0, 0
+  index: -1
+Winter/car
+  rotate: true
+  xy: 138, 219
+  size: 130, 113
+  orig: 134, 115
+  offset: 2, 1
+  index: -1
+Winter/cay1
+  rotate: false
+  xy: 988, 124
+  size: 271, 160
+  orig: 271, 160
+  offset: 0, 0
+  index: -1
+Winter/cay2
+  rotate: true
+  xy: 819, 294
+  size: 258, 164
+  orig: 259, 164
+  offset: 0, 0
+  index: -1
+Winter/cay3
+  rotate: false
+  xy: 276, 229
+  size: 429, 186
+  orig: 429, 186
+  offset: 0, 0
+  index: -1
+Winter/len
+  rotate: false
+  xy: 138, 10
+  size: 241, 39
+  orig: 241, 39
+  offset: 0, 0
+  index: -1
+Winter/santa
+  rotate: false
+  xy: 138, 82
+  size: 105, 135
+  orig: 105, 135
+  offset: 0, 0
+  index: -1
+cay
+  rotate: true
+  xy: 2, 27
+  size: 322, 134
+  orig: 322, 134
+  offset: 0, 0
+  index: -1
+cay2
+  rotate: false
+  xy: 253, 51
+  size: 272, 176
+  orig: 272, 176
+  offset: 0, 0
+  index: -1
+cayvang
+  rotate: false
+  xy: 527, 19
+  size: 175, 208
+  orig: 175, 208
+  offset: 0, 0
+  index: -1
+cayxanh
+  rotate: false
+  xy: 1349, 43
+  size: 152, 241
+  orig: 152, 241
+  offset: 0, 0
+  index: -1
+giocay
+  rotate: false
+  xy: 704, 43
+  size: 65, 94
+  orig: 65, 94
+  offset: 0, 0
+  index: -1
+land
+  rotate: false
+  xy: 2, 554
+  size: 990, 495
+  orig: 1035, 496
+  offset: 24, 1
+  index: -1
+nen
+  rotate: false
+  xy: 2, 351
+  size: 272, 201
+  orig: 272, 201
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+nha biet thu bien.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 14 copy
+  rotate: false
+  xy: 1967, 1343
+  size: 659, 703
+  orig: 659, 704
+  offset: 0, 0
+  index: -1
+Layer 1051
+  rotate: false
+  xy: 541, 196
+  size: 336, 105
+  orig: 338, 107
+  offset: 1, 1
+  index: -1
+Rectangle 6 copy 13
+  rotate: false
+  xy: 1704, 22
+  size: 394, 70
+  orig: 396, 72
+  offset: 1, 1
+  index: -1
+cay
+  rotate: true
+  xy: 2066, 376
+  size: 613, 104
+  orig: 615, 106
+  offset: 1, 1
+  index: -1
+da sau
+  rotate: true
+  xy: 541, 303
+  size: 1743, 828
+  orig: 1745, 830
+  offset: 1, 1
+  index: -1
+doi 1
+  rotate: true
+  xy: 1371, 960
+  size: 1086, 594
+  orig: 1088, 596
+  offset: 1, 1
+  index: -1
+doi 2
+  rotate: false
+  xy: 1371, 327
+  size: 693, 631
+  orig: 695, 633
+  offset: 1, 1
+  index: -1
+hai dang
+  rotate: true
+  xy: 879, 4
+  size: 297, 686
+  orig: 299, 688
+  offset: 1, 1
+  index: -1
+ke
+  rotate: false
+  xy: 0, 28
+  size: 618, 163
+  orig: 620, 165
+  offset: 1, 1
+  index: -1
+lh
+  rotate: false
+  xy: 1967, 991
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+nha biet thu
+  rotate: false
+  xy: 2172, 427
+  size: 512, 562
+  orig: 514, 564
+  offset: 1, 1
+  index: -1
+rao 1
+  rotate: false
+  xy: 2088, 277
+  size: 493, 97
+  orig: 495, 99
+  offset: 1, 1
+  index: -1
+sang 1_
+  rotate: true
+  xy: 1567, 0
+  size: 325, 135
+  orig: 327, 138
+  offset: 1, 0
+  index: -1
+song
+  rotate: true
+  xy: 0, 193
+  size: 1853, 539
+  orig: 1856, 541
+  offset: 1, 1
+  index: -1
+thuyen
+  rotate: false
+  xy: 1704, 94
+  size: 382, 231
+  orig: 385, 233
+  offset: 2, 1
+  index: -1

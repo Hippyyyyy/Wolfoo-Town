@@ -1,0 +1,160 @@
+
+kem chay.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+berry/bac ha 1
+  rotate: false
+  xy: 1365, 63
+  size: 384, 257
+  orig: 384, 257
+  offset: 0, 0
+  index: -1
+berry/bac ha 2
+  rotate: false
+  xy: 2225, 339
+  size: 517, 188
+  orig: 517, 188
+  offset: 0, 0
+  index: -1
+berry/bac ha 3
+  rotate: false
+  xy: 709, 89
+  size: 654, 231
+  orig: 654, 231
+  offset: 0, 0
+  index: -1
+berry/kem chay xanh
+  rotate: true
+  xy: 709, 541
+  size: 217, 993
+  orig: 217, 993
+  offset: 0, 0
+  index: -1
+kem bac ha/bac ha 1
+  rotate: false
+  xy: 2270, 80
+  size: 384, 257
+  orig: 384, 257
+  offset: 0, 0
+  index: -1
+kem bac ha/bac ha 2
+  rotate: false
+  xy: 2744, 339
+  size: 517, 188
+  orig: 517, 188
+  offset: 0, 0
+  index: -1
+kem bac ha/bac ha 3
+  rotate: false
+  xy: 1706, 529
+  size: 654, 231
+  orig: 654, 231
+  offset: 0, 0
+  index: -1
+kem bac ha/kem chay xanh
+  rotate: true
+  xy: 1706, 762
+  size: 217, 993
+  orig: 217, 993
+  offset: 0, 0
+  index: -1
+kem cam/bac ha 1
+  rotate: false
+  xy: 2656, 80
+  size: 384, 257
+  orig: 384, 257
+  offset: 0, 0
+  index: -1
+kem cam/bac ha 2
+  rotate: false
+  xy: 3263, 339
+  size: 517, 188
+  orig: 517, 188
+  offset: 0, 0
+  index: -1
+kem cam/bac ha 3
+  rotate: false
+  xy: 2362, 529
+  size: 654, 231
+  orig: 654, 231
+  offset: 0, 0
+  index: -1
+kem cam/kem chay xanh
+  rotate: true
+  xy: 709, 322
+  size: 217, 993
+  orig: 217, 993
+  offset: 0, 0
+  index: -1
+kem dau/bac ha 1
+  rotate: false
+  xy: 3042, 80
+  size: 384, 257
+  orig: 384, 257
+  offset: 0, 0
+  index: -1
+kem dau/bac ha 2
+  rotate: false
+  xy: 1751, 147
+  size: 517, 188
+  orig: 517, 188
+  offset: 0, 0
+  index: -1
+kem dau/bac ha 3
+  rotate: false
+  xy: 3018, 529
+  size: 654, 231
+  orig: 654, 231
+  offset: 0, 0
+  index: -1
+kem dau/kem chay xanh
+  rotate: true
+  xy: 2701, 762
+  size: 217, 993
+  orig: 217, 993
+  offset: 0, 0
+  index: -1
+kem scli/Layer 30
+  rotate: false
+  xy: 1751, 0
+  size: 429, 145
+  orig: 429, 145
+  offset: 0, 0
+  index: -1
+kem scli/kem chay
+  rotate: true
+  xy: 709, 760
+  size: 219, 995
+  orig: 219, 995
+  offset: 0, 0
+  index: -1
+kem scli/oc que 1
+  rotate: false
+  xy: 0, 289
+  size: 707, 690
+  orig: 707, 690
+  offset: 0, 0
+  index: -1
+kem scli/scl 1
+  rotate: false
+  xy: 0, 54
+  size: 656, 233
+  orig: 656, 233
+  offset: 0, 0
+  index: -1
+kem scli/scl 3
+  rotate: false
+  xy: 3696, 720
+  size: 386, 259
+  orig: 386, 259
+  offset: 0, 0
+  index: -1
+kem scli/scl2
+  rotate: false
+  xy: 1704, 337
+  size: 519, 190
+  orig: 519, 190
+  offset: 0, 0
+  index: -1

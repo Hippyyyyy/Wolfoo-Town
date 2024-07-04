@@ -1,0 +1,342 @@
+
+School.png
+size: 4020,1551
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Christmast/Layer 19
+  rotate: true
+  xy: 2853, 908
+  size: 186, 257
+  orig: 186, 257
+  offset: 0, 0
+  index: -1
+Christmast/Layer 20
+  rotate: false
+  xy: 2495, 887
+  size: 239, 207
+  orig: 239, 208
+  offset: 0, 0
+  index: -1
+Christmast/Layer 21
+  rotate: true
+  xy: 563, 789
+  size: 760, 516
+  orig: 760, 516
+  offset: 0, 0
+  index: -1
+Christmast/Layer 22
+  rotate: false
+  xy: 1660, 1442
+  size: 109, 107
+  orig: 110, 108
+  offset: 1, 1
+  index: -1
+Christmast/Layer 23
+  rotate: false
+  xy: 1483, 1456
+  size: 113, 93
+  orig: 115, 93
+  offset: 1, 0
+  index: -1
+Christmast/Layer 24
+  rotate: true
+  xy: 1516, 3
+  size: 277, 253
+  orig: 277, 253
+  offset: 0, 0
+  index: -1
+Christmast/Layer 25
+  rotate: false
+  xy: 1375, 2
+  size: 139, 278
+  orig: 139, 279
+  offset: 0, 0
+  index: -1
+Christmast/Layer 9
+  rotate: true
+  xy: 811, 83
+  size: 704, 361
+  orig: 704, 361
+  offset: 0, 0
+  index: -1
+Christmast/Snowman
+  rotate: false
+  xy: 2895, 41
+  size: 257, 370
+  orig: 257, 370
+  offset: 0, 0
+  index: -1
+Christmast/Vector Smart Object copy 3
+  rotate: false
+  xy: 871, 23
+  size: 447, 58
+  orig: 447, 58
+  offset: 0, 0
+  index: -1
+Christmast/Vector Smart Object copy 4
+  rotate: true
+  xy: 2643, 10
+  size: 375, 155
+  orig: 375, 155
+  offset: 0, 0
+  index: -1
+Christmast/Vector Smart Object copy 5
+  rotate: true
+  xy: 3415, 6
+  size: 297, 479
+  orig: 297, 479
+  offset: 0, 0
+  index: -1
+Christmast/Vector Smart Object copy 6
+  rotate: false
+  xy: 3762, 607
+  size: 256, 487
+  orig: 256, 487
+  offset: 0, 0
+  index: -1
+Christmast/deer
+  rotate: true
+  xy: 3409, 928
+  size: 166, 260
+  orig: 166, 260
+  offset: 0, 0
+  index: -1
+Christmast/penguin
+  rotate: false
+  xy: 3112, 911
+  size: 164, 183
+  orig: 164, 183
+  offset: 0, 0
+  index: -1
+Christmast/santa
+  rotate: false
+  xy: 2860, 413
+  size: 457, 493
+  orig: 457, 493
+  offset: 0, 0
+  index: -1
+Ellipse 2
+  rotate: false
+  xy: 1081, 820
+  size: 240, 29
+  orig: 242, 31
+  offset: 1, 1
+  index: -1
+Floor
+  rotate: false
+  xy: 1771, 1219
+  size: 2245, 330
+  orig: 2247, 332
+  offset: 1, 1
+  index: -1
+Group 1 copy
+  rotate: false
+  xy: 3278, 926
+  size: 129, 168
+  orig: 129, 168
+  offset: 0, 0
+  index: -1
+Hangrao_l
+  rotate: true
+  xy: 2, 541
+  size: 1008, 93
+  orig: 1010, 95
+  offset: 1, 1
+  index: -1
+Hangrao_phai
+  rotate: true
+  xy: 2800, 12
+  size: 373, 93
+  orig: 375, 95
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: true
+  xy: 1081, 851
+  size: 698, 199
+  orig: 698, 199
+  offset: 0, 0
+  index: -1
+Layer 1 copy
+  rotate: true
+  xy: 1282, 851
+  size: 698, 199
+  orig: 698, 199
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: false
+  xy: 97, 542
+  size: 106, 233
+  orig: 108, 235
+  offset: 1, 1
+  index: -1
+Layer 9 copy
+  rotate: true
+  xy: 1174, 92
+  size: 697, 199
+  orig: 697, 199
+  offset: 0, 0
+  index: -1
+New/Gau
+  rotate: false
+  xy: 1483, 853
+  size: 236, 290
+  orig: 238, 292
+  offset: 1, 1
+  index: -1
+New/Nha
+  rotate: true
+  xy: 205, 12
+  size: 763, 604
+  orig: 765, 606
+  offset: 1, 1
+  index: -1
+New/Vector Smart Object
+  rotate: false
+  xy: 2344, 883
+  size: 149, 211
+  orig: 153, 213
+  offset: 2, 1
+  index: -1
+New/bienxebus
+  rotate: false
+  xy: 2736, 898
+  size: 115, 196
+  orig: 115, 196
+  offset: 0, 0
+  index: -1
+New/cay1
+  rotate: false
+  xy: 3319, 434
+  size: 441, 490
+  orig: 441, 490
+  offset: 0, 0
+  index: -1
+New/cay2
+  rotate: true
+  xy: 2159, 40
+  size: 330, 482
+  orig: 330, 482
+  offset: 0, 0
+  index: -1
+New/co
+  rotate: false
+  xy: 1660, 290
+  size: 135, 561
+  orig: 135, 561
+  offset: 0, 0
+  index: -1
+New/cong
+  rotate: true
+  xy: 97, 777
+  size: 772, 464
+  orig: 774, 466
+  offset: 1, 1
+  index: -1
+New/day
+  rotate: true
+  xy: 3154, 86
+  size: 325, 259
+  orig: 325, 259
+  offset: 0, 0
+  index: -1
+New/mu
+  rotate: false
+  xy: 1771, 26
+  size: 386, 262
+  orig: 388, 264
+  offset: 1, 1
+  index: -1
+New/sach
+  rotate: true
+  xy: 1483, 1145
+  size: 295, 282
+  orig: 298, 284
+  offset: 2, 1
+  index: -1
+New/xeBus
+  rotate: true
+  xy: 1375, 282
+  size: 567, 283
+  orig: 569, 285
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 5
+  rotate: true
+  xy: 2427, 387
+  size: 494, 431
+  orig: 496, 433
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 7
+  rotate: false
+  xy: 2100, 1096
+  size: 1897, 121
+  orig: 1899, 123
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 8
+  rotate: true
+  xy: 1991, 372
+  size: 501, 434
+  orig: 505, 436
+  offset: 2, 1
+  index: -1
+bóng
+  rotate: false
+  xy: 811, 9
+  size: 58, 72
+  orig: 60, 74
+  offset: 1, 1
+  index: -1
+cau truot copy
+  rotate: false
+  xy: 3762, 305
+  size: 250, 300
+  orig: 252, 302
+  offset: 1, 1
+  index: -1
+ho cat
+  rotate: true
+  xy: 1797, 359
+  size: 514, 192
+  orig: 516, 194
+  offset: 1, 1
+  index: -1
+ho cat copy
+  rotate: true
+  xy: 2, 19
+  size: 520, 200
+  orig: 522, 202
+  offset: 1, 1
+  index: -1
+ho cat copy 2
+  rotate: false
+  xy: 1081, 791
+  size: 101, 27
+  orig: 103, 29
+  offset: 1, 1
+  index: -1
+lau dai cat
+  rotate: true
+  xy: 3415, 308
+  size: 124, 138
+  orig: 126, 140
+  offset: 1, 1
+  index: -1
+tang1
+  rotate: true
+  xy: 1767, 875
+  size: 342, 331
+  orig: 344, 333
+  offset: 1, 1
+  index: -1
+xich du copy
+  rotate: false
+  xy: 2100, 876
+  size: 242, 218
+  orig: 242, 218
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+cua sieu thi mo.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1359600
+  rotate: false
+  xy: 1337, 1337
+  size: 1463, 1142
+  orig: 1465, 1144
+  offset: 1, 1
+  index: -1
+Layer 1359601
+  rotate: true
+  xy: 0, 1739
+  size: 845, 1335
+  orig: 847, 1337
+  offset: 1, 1
+  index: -1
+Layer 1359602
+  rotate: true
+  xy: 2288, 2481
+  size: 839, 1335
+  orig: 841, 1337
+  offset: 1, 1
+  index: -1
+Layer 1359603
+  rotate: true
+  xy: 0, 2587
+  size: 733, 1142
+  orig: 735, 1144
+  offset: 1, 1
+  index: -1
+Layer 1359604
+  rotate: true
+  xy: 1144, 2586
+  size: 734, 1142
+  orig: 736, 1144
+  offset: 1, 1
+  index: -1
+Layer 901
+  rotate: true
+  xy: 0, 54
+  size: 1683, 1335
+  orig: 1685, 1337
+  offset: 1, 1
+  index: -1
+xich du
+  rotate: false
+  xy: 1337, 0
+  size: 1688, 1335
+  orig: 1690, 1337
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,34 @@
+
+thang may.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cua 1
+  rotate: false
+  xy: 1414, 74
+  size: 319, 928
+  orig: 321, 930
+  offset: 1, 1
+  index: -1
+cua 2
+  rotate: false
+  xy: 1735, 74
+  size: 315, 928
+  orig: 317, 930
+  offset: 1, 1
+  index: -1
+hop sau
+  rotate: false
+  xy: 779, 73
+  size: 633, 929
+  orig: 635, 931
+  offset: 1, 1
+  index: -1
+vanh trc
+  rotate: false
+  xy: 0, 0
+  size: 777, 1002
+  orig: 779, 1004
+  offset: 1, 1
+  index: -1

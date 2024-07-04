@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Load Scenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Load Scenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4b8ab663cbb20b54cb4fcf7b81956d6d
+  m_SerializeEntries:
+  - m_GUID: e3484c70d45fac44f8771b237c84f6ea
+    m_Address: WolfooShoppingMall_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b924d0c14e39bc24b9ef9024c11c47f7
+    m_Address: WolfooSchool_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f0f2c5d47224fa4daed874c0396eef5
+    m_Address: WolfooCity_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aed93573f45973f4281c87869088f5bd
+    m_Address: WFPlayground_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1407bd0e5239c44afe89a906bbb61c
+    m_Address: WFOpera_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae6b399c6816e7344a59a6832ee08827
+    m_Address: WFHouse_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51d6c31e88d184549bdeeb3e1d5a4d17
+    m_Address: WFHospital_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2136da90d8e9fd14b961dd34c2e01913
+    m_Address: WFCampingPark_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe45711a64555a74da30669e5b053d06
+    m_Address: WFBeachVilla_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40e15a76cadc5924580c01bd237f66b7
+    m_Address: CharacterCreater_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e69c8855ee5e7cb4389342613fe942ba
+    m_Address: Load_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b91fdd0ce1db644793dc119bfe0079b
+    m_Address: WFMediterranean_Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9f6695d15b3ca224a8e60f6c9f919f8b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 021f76cd1dba8e94f9e94f31c93e8833, type: 2}
+    - {fileID: 11400000, guid: 8af7b345df5d5b14286ec72f2fb30b1b, type: 2}

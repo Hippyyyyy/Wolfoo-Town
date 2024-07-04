@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243a67123e2a7f4db2947c4db55c034, type: 3}
+  m_Name: CategoryAccessoryHand
+  m_EditorClassIdentifier: 
+  FeatureCategories: 0a000000
+  HairCategory: 0
+  featureFilter: []
+  ColorCategory: 0
+  characterFeatureFilter:
+    filteredFeatures:
+    - {fileID: 11400000, guid: be0b507b78356d84598b9eca6a630eeb, type: 2}
+    - {fileID: 11400000, guid: a0d2ae52aef6c6c4398c29e040d38feb, type: 2}
+    - {fileID: 11400000, guid: 521b041361a3c0d4db2fa277133aac39, type: 2}
+    - {fileID: 11400000, guid: 45e92a56a9272d1409bce599ed06f119, type: 2}
+    - {fileID: 11400000, guid: 160cd323afc6d5741b7717b1ac1cb605, type: 2}
+    - {fileID: 11400000, guid: fdff8b80339bede4fb79dc1b3043db57, type: 2}
+    - {fileID: 11400000, guid: 8d728626db2d01b41a11b509d4978ea8, type: 2}
+    filteredBabyFeatures:
+    - {fileID: 11400000, guid: be0b507b78356d84598b9eca6a630eeb, type: 2}
+    - {fileID: 11400000, guid: a0d2ae52aef6c6c4398c29e040d38feb, type: 2}
+    - {fileID: 11400000, guid: 521b041361a3c0d4db2fa277133aac39, type: 2}
+    - {fileID: 11400000, guid: 45e92a56a9272d1409bce599ed06f119, type: 2}
+    - {fileID: 11400000, guid: 160cd323afc6d5741b7717b1ac1cb605, type: 2}
+    - {fileID: 11400000, guid: fdff8b80339bede4fb79dc1b3043db57, type: 2}
+    - {fileID: 11400000, guid: 8d728626db2d01b41a11b509d4978ea8, type: 2}
+    categories: 
+    filteredColorSwatch: []

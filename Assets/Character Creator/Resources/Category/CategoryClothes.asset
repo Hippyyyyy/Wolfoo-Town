@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243a67123e2a7f4db2947c4db55c034, type: 3}
+  m_Name: CategoryClothes
+  m_EditorClassIdentifier: 
+  FeatureCategories: 06000000
+  HairCategory: 0
+  featureFilter: []
+  ColorCategory: 0
+  characterFeatureFilter:
+    filteredFeatures:
+    - {fileID: 11400000, guid: b753df9a6e3d7ea40967447cc63708fb, type: 2}
+    - {fileID: 11400000, guid: 3dc094cf076506844bee7a4ba57d9ce2, type: 2}
+    - {fileID: 11400000, guid: 35b74587b2181e342b0a50adfa3ef95d, type: 2}
+    - {fileID: 11400000, guid: 0348627016289c34f8a52c6d34a4a82e, type: 2}
+    - {fileID: 11400000, guid: a5a9acb2ad4ad3942b7c960e1a68b26e, type: 2}
+    - {fileID: 11400000, guid: aaced3ceb15f61a498928dd041f245ac, type: 2}
+    - {fileID: 11400000, guid: 9d05682fbe7f9d344a1c7977dcf34c22, type: 2}
+    - {fileID: 11400000, guid: a301bd9b4b723534db3ef8f4fd4be534, type: 2}
+    - {fileID: 11400000, guid: 208f05d0c5374c342828bd757937fdc8, type: 2}
+    - {fileID: 11400000, guid: 442969658b1ad4b40956e0f1255dcd50, type: 2}
+    - {fileID: 11400000, guid: aff5d49643bbb504fa98fec07d06fc56, type: 2}
+    - {fileID: 11400000, guid: 7eea7bde7a8c59f42a8b89b4aba55db8, type: 2}
+    - {fileID: 11400000, guid: 8f580a02c6f25294b8a75b727473b1f4, type: 2}
+    - {fileID: 11400000, guid: 0a5face35487b804a951a769c19c4872, type: 2}
+    - {fileID: 11400000, guid: cd2b383d1d45e1048aa4e2ac16dab790, type: 2}
+    - {fileID: 11400000, guid: 6c7fbbf2cec738c4d8b857c9291d30bb, type: 2}
+    - {fileID: 11400000, guid: ee6f5cb5e9fbc86449aa3d13d932d2d7, type: 2}
+    - {fileID: 11400000, guid: d18407edf29492d4389d0f2369fc6720, type: 2}
+    - {fileID: 11400000, guid: aa6429791d3ff654e87ed9ef17d2ed09, type: 2}
+    - {fileID: 11400000, guid: 009bccb433234bb4b886efca601e5545, type: 2}
+    - {fileID: 11400000, guid: 5e4bc29bfe4cd5a4e8b05da5ee0fbcd0, type: 2}
+    - {fileID: 11400000, guid: 094604abb21d5a549ae74cbcd024b802, type: 2}
+    filteredBabyFeatures: []
+    categories: 
+    filteredColorSwatch: []

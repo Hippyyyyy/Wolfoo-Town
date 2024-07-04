@@ -1,0 +1,76 @@
+
+du quay.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 7 copy 7
+  rotate: false
+  xy: 0, 261
+  size: 452, 235
+  orig: 452, 235
+  offset: 0, 0
+  index: -1
+Rectangle 5
+  rotate: true
+  xy: 0, 833
+  size: 8, 211
+  orig: 8, 211
+  offset: 0, 0
+  index: -1
+Rectangle 5 copy
+  rotate: true
+  xy: 162, 843
+  size: 7, 211
+  orig: 7, 211
+  offset: 0, 0
+  index: -1
+Rectangle 5 copy 5
+  rotate: false
+  xy: 0, 0
+  size: 410, 259
+  orig: 410, 259
+  offset: 0, 0
+  index: -1
+Rectangle 6
+  rotate: true
+  xy: 0, 844
+  size: 6, 160
+  orig: 6, 160
+  offset: 0, 0
+  index: -1
+cot 1
+  rotate: true
+  xy: 0, 613
+  size: 113, 344
+  orig: 113, 344
+  offset: 0, 0
+  index: -1
+cot 2
+  rotate: true
+  xy: 0, 498
+  size: 113, 344
+  orig: 113, 344
+  offset: 0, 0
+  index: -1
+lo mui 6
+  rotate: true
+  xy: 0, 728
+  size: 103, 163
+  orig: 103, 163
+  offset: 0, 0
+  index: -1
+ngua hong
+  rotate: true
+  xy: 357, 666
+  size: 175, 140
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+ngua xanh
+  rotate: true
+  xy: 213, 739
+  size: 102, 142
+  orig: 102, 142
+  offset: 0, 0
+  index: -1

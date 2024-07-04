@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992603f948d49dc498e961c8f426e5be, type: 3}
+  m_Name: Hair_15
+  m_EditorClassIdentifier: 
+  ID: 15
+  Icon: {fileID: 21300000, guid: 7a884b8e8f76d9645a373975905c23cc, type: 3}
+  Category: 5
+  Front: {fileID: 21300000, guid: 4cd8766384d96b849a2a773b3faa3178, type: 3}
+  Back: {fileID: 21300000, guid: bb353681c90c6a4408b7ca8841d628b1, type: 3}
+  NewlyCreated: 0
+  Metadata:
+    IsAvailableInCharacterCreator: 0
+    IsAvailableForBabies: 0
+    IsAvailableForAdults: 0
+    IsFree: 0
+    UnlockedDateTimeTick: 0
+  HairCategory: 1
+  CanDye: 0
+  HidesEars: 0

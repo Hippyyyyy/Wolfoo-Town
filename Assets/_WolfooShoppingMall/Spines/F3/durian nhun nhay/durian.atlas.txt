@@ -1,0 +1,20 @@
+
+durian.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bong
+  rotate: true
+  xy: 574, 91
+  size: 717, 485
+  orig: 717, 485
+  offset: 0, 0
+  index: -1
+sau rieng
+  rotate: true
+  xy: 0, 0
+  size: 808, 572
+  orig: 808, 572
+  offset: 0, 0
+  index: -1

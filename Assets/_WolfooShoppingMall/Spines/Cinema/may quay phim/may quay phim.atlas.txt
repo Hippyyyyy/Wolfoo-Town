@@ -1,0 +1,55 @@
+
+may quay phim.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6049
+  rotate: true
+  xy: 568, 629
+  size: 375, 361
+  orig: 375, 361
+  offset: 0, 0
+  index: -1
+Layer 6059
+  rotate: true
+  xy: 568, 257
+  size: 370, 358
+  orig: 370, 358
+  offset: 0, 0
+  index: -1
+Layer 60691
+  rotate: true
+  xy: 816, 3
+  size: 252, 244
+  orig: 252, 244
+  offset: 0, 0
+  index: -1
+Layer 60692
+  rotate: true
+  xy: 568, 0
+  size: 255, 246
+  orig: 255, 246
+  offset: 0, 0
+  index: -1
+Layer 60693
+  rotate: true
+  xy: 928, 333
+  size: 294, 284
+  orig: 294, 284
+  offset: 0, 0
+  index: -1
+Layer 60694
+  rotate: true
+  xy: 1062, 130
+  size: 201, 194
+  orig: 201, 194
+  offset: 0, 0
+  index: -1
+Layer 6070
+  rotate: true
+  xy: 0, 8
+  size: 996, 566
+  orig: 996, 566
+  offset: 0, 0
+  index: -1

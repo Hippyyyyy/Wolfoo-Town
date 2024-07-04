@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243a67123e2a7f4db2947c4db55c034, type: 3}
+  m_Name: CategoryEyebrows
+  m_EditorClassIdentifier: 
+  FeatureCategories: 01000000
+  HairCategory: 0
+  featureFilter: []
+  ColorCategory: 3
+  characterFeatureFilter:
+    filteredFeatures:
+    - {fileID: 11400000, guid: db8560b97a8fb534abfa68480e2b0037, type: 2}
+    - {fileID: 11400000, guid: b1607057d92daf34e89b51e1005ee17f, type: 2}
+    - {fileID: 11400000, guid: ea88157e76053364a8cc10140147e902, type: 2}
+    - {fileID: 11400000, guid: d25822a4469fef743a1ae91ea72a00f4, type: 2}
+    - {fileID: 11400000, guid: bb761dbb5cf6a7a429dc7242c40a98c0, type: 2}
+    - {fileID: 11400000, guid: 822a1c6c6e755f0408b86ed98a9f3c05, type: 2}
+    - {fileID: 11400000, guid: 3f9567f58ed7016448731ee87bfa43d8, type: 2}
+    - {fileID: 11400000, guid: 3206951e65c2af147baede0b47921abe, type: 2}
+    - {fileID: 11400000, guid: 1b65997ae6d64724fbec576588f6378a, type: 2}
+    filteredBabyFeatures: []
+    categories: 
+    filteredColorSwatch:
+    - {fileID: 11400000, guid: 76de3b03a542626469cda8bbd97d2fb7, type: 2}
+    - {fileID: 11400000, guid: 3d38c4733a23ea34789ccee45d8df697, type: 2}
+    - {fileID: 11400000, guid: b64d25f4d017d304f8984c2ab9796d22, type: 2}
+    - {fileID: 11400000, guid: 5a215bd8932899c4fbb1345cd4a27894, type: 2}
+    - {fileID: 11400000, guid: 643c9d2c0f2945a4ca5dec9ecf04affd, type: 2}
+    - {fileID: 11400000, guid: b88fc1006672fd9478fcb6a57ca04ef8, type: 2}
+    - {fileID: 11400000, guid: 8bb9245a96de5d44caa00a2b4aea2ce3, type: 2}
+    - {fileID: 11400000, guid: eab9a87b39c5d334bbafb0f3d298a213, type: 2}
+    - {fileID: 11400000, guid: a00d05c93319ba149bcf4c3ffceced73, type: 2}
+    - {fileID: 11400000, guid: 23219ca5e6a3f9e41b2fc5e3302e3f85, type: 2}
+    - {fileID: 11400000, guid: 8d2aae79204181c40a5caa3193b3059f, type: 2}
+    - {fileID: 11400000, guid: 12ceea50ef11c504d904b04f2dced57f, type: 2}
+    - {fileID: 11400000, guid: 88f4a84dd155dc942819d74fec9a3f00, type: 2}
+    - {fileID: 11400000, guid: 38d3cf255cf01b146bab4fcdc9f60334, type: 2}
+    - {fileID: 11400000, guid: 96d2324b3bf32d64686beecf8e4a6384, type: 2}
+    - {fileID: 11400000, guid: 82cde40063d5db442b8c0249df57de90, type: 2}
+    - {fileID: 11400000, guid: 2a94fdd6a3cb7514fa2b240542122a96, type: 2}
+    - {fileID: 11400000, guid: 124481c7b91ae2949a27a936bfc090db, type: 2}
+    - {fileID: 11400000, guid: 1cacecc432313924c888f45dc4e0b605, type: 2}
+    - {fileID: 11400000, guid: aec1fedc3d3bf0a48aa8827972a2e95b, type: 2}
+    - {fileID: 11400000, guid: 53f7aab50f696c946b26980b877143e1, type: 2}
+    - {fileID: 11400000, guid: e600bd1f4142f2f449222a44e4c1df95, type: 2}
+    - {fileID: 11400000, guid: 8923a6dfaf86b5c49806b976e75b66e6, type: 2}
+    - {fileID: 11400000, guid: cce5b30f8c83d05408693facabd44f20, type: 2}
+    - {fileID: 11400000, guid: bd4197a45bff06148a4b13daf4de674b, type: 2}
+    - {fileID: 11400000, guid: 678ebdc785e5e5a47af4ce5c8d5edb42, type: 2}
+    - {fileID: 11400000, guid: b26b925128822b841924b389ea8e31a2, type: 2}
+    - {fileID: 11400000, guid: 833d2238671268949bba624878b840cb, type: 2}
+    - {fileID: 11400000, guid: 9bdd3e5f0d91c1746acb103f9e72d3c5, type: 2}
+    - {fileID: 11400000, guid: bb51db4d2d1d77745b09ab1c115de885, type: 2}
+    - {fileID: 11400000, guid: 52ba23ee28a652d4f9e4dfba82c36248, type: 2}
+    - {fileID: 11400000, guid: 77fd151a37b3b3348b19330621ed314d, type: 2}
+    - {fileID: 11400000, guid: 994b2a0ad69b33f4bb3cf9b58024451f, type: 2}
+    - {fileID: 11400000, guid: 0aac8c76006b1ac46afabe6505bbc38b, type: 2}
+    - {fileID: 11400000, guid: 00dbb09c38c31484d83c19db8899e93e, type: 2}
+    - {fileID: 11400000, guid: 1a77dee58b99f054180932b5d262269c, type: 2}
+    - {fileID: 11400000, guid: 5bca3b2dd09042d43a28f9075e77b974, type: 2}

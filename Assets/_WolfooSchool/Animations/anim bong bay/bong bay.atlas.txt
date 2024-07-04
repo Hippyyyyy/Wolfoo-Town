@@ -1,0 +1,334 @@
+
+bong bay.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+day
+  rotate: false
+  xy: 840, 2721
+  size: 25, 534
+  orig: 25, 534
+  offset: 0, 0
+  index: -1
+de
+  rotate: false
+  xy: 807, 3257
+  size: 86, 45
+  orig: 86, 45
+  offset: 0, 0
+  index: -1
+fbf cam/10
+  rotate: true
+  xy: 3080, 1286
+  size: 681, 626
+  orig: 681, 626
+  offset: 0, 0
+  index: -1
+fbf cam/11
+  rotate: false
+  xy: 2350, 1969
+  size: 777, 652
+  orig: 777, 652
+  offset: 0, 0
+  index: -1
+fbf cam/4
+  rotate: true
+  xy: 2429, 3398
+  size: 695, 770
+  orig: 695, 770
+  offset: 0, 0
+  index: -1
+fbf cam/5
+  rotate: true
+  xy: 807, 3304
+  size: 789, 827
+  orig: 789, 827
+  offset: 0, 0
+  index: -1
+fbf cam/6
+  rotate: true
+  xy: 840, 1707
+  size: 771, 791
+  orig: 771, 791
+  offset: 0, 0
+  index: -1
+fbf cam/9
+  rotate: true
+  xy: 3080, 604
+  size: 680, 622
+  orig: 680, 622
+  offset: 0, 0
+  index: -1
+fbf vang/10
+  rotate: false
+  xy: 3129, 2110
+  size: 681, 626
+  orig: 681, 626
+  offset: 0, 0
+  index: -1
+fbf vang/11
+  rotate: false
+  xy: 2301, 374
+  size: 777, 652
+  orig: 777, 652
+  offset: 0, 0
+  index: -1
+fbf vang/2
+  rotate: false
+  xy: 703, 186
+  size: 608, 726
+  orig: 608, 726
+  offset: 0, 0
+  index: -1
+fbf vang/4
+  rotate: true
+  xy: 1667, 2623
+  size: 697, 775
+  orig: 697, 775
+  offset: 0, 0
+  index: -1
+fbf vang/5
+  rotate: false
+  xy: 895, 2480
+  size: 770, 822
+  orig: 770, 822
+  offset: 0, 0
+  index: -1
+fbf vang/6
+  rotate: false
+  xy: 0, 1658
+  size: 771, 791
+  orig: 771, 791
+  offset: 0, 0
+  index: -1
+fbf xanh duong/10
+  rotate: false
+  xy: 3175, 2770
+  size: 681, 626
+  orig: 681, 626
+  offset: 0, 0
+  index: -1
+fbf xanh duong/11
+  rotate: true
+  xy: 1546, 231
+  size: 777, 652
+  orig: 777, 652
+  offset: 0, 0
+  index: -1
+fbf xanh duong/4
+  rotate: false
+  xy: 0, 883
+  size: 701, 773
+  orig: 701, 773
+  offset: 0, 0
+  index: -1
+fbf xanh duong/5
+  rotate: true
+  xy: 0, 2451
+  size: 802, 838
+  orig: 802, 838
+  offset: 0, 0
+  index: -1
+fbf xanh duong/6
+  rotate: false
+  xy: 773, 914
+  size: 771, 791
+  orig: 771, 791
+  offset: 0, 0
+  index: -1
+fbf/10
+  rotate: true
+  xy: 0, 200
+  size: 681, 626
+  orig: 681, 626
+  offset: 0, 0
+  index: -1
+fbf/11
+  rotate: false
+  xy: 2301, 1028
+  size: 777, 652
+  orig: 777, 652
+  offset: 0, 0
+  index: -1
+fbf/2
+  rotate: true
+  xy: 3080, 0
+  size: 602, 723
+  orig: 602, 723
+  offset: 0, 0
+  index: -1
+fbf/4
+  rotate: false
+  xy: 1633, 1682
+  size: 715, 796
+  orig: 715, 796
+  offset: 0, 0
+  index: -1
+fbf/5
+  rotate: false
+  xy: 0, 3255
+  size: 805, 838
+  orig: 805, 838
+  offset: 0, 0
+  index: -1
+fbf/6
+  rotate: true
+  xy: 1636, 3322
+  size: 771, 791
+  orig: 771, 791
+  offset: 0, 0
+  index: -1
+fbf/7
+  rotate: false
+  xy: 2444, 2738
+  size: 729, 658
+  orig: 729, 658
+  offset: 0, 0
+  index: -1
+fbf/8
+  rotate: false
+  xy: 1546, 1010
+  size: 753, 670
+  orig: 753, 670
+  offset: 0, 0
+  index: -1
+fbf/9
+  rotate: false
+  xy: 3201, 3471
+  size: 680, 622
+  orig: 680, 622
+  offset: 0, 0
+  index: -1
+
+bong bay2.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bong vang
+  rotate: true
+  xy: 0, 28
+  size: 555, 689
+  orig: 555, 689
+  offset: 0, 0
+  index: -1
+cam
+  rotate: false
+  xy: 2447, 1349
+  size: 553, 687
+  orig: 553, 687
+  offset: 0, 0
+  index: -1
+duong
+  rotate: true
+  xy: 691, 31
+  size: 553, 695
+  orig: 553, 695
+  offset: 0, 0
+  index: -1
+fbf cam/2
+  rotate: false
+  xy: 604, 586
+  size: 602, 722
+  orig: 602, 722
+  offset: 0, 0
+  index: -1
+fbf cam/3
+  rotate: false
+  xy: 610, 1315
+  size: 609, 721
+  orig: 609, 721
+  offset: 0, 0
+  index: -1
+fbf cam/7
+  rotate: false
+  xy: 2765, 45
+  size: 674, 609
+  orig: 674, 609
+  offset: 0, 0
+  index: -1
+fbf cam/8
+  rotate: true
+  xy: 1819, 624
+  size: 689, 613
+  orig: 689, 613
+  offset: 0, 0
+  index: -1
+fbf vang/3
+  rotate: false
+  xy: 0, 1310
+  size: 608, 726
+  orig: 608, 726
+  offset: 0, 0
+  index: -1
+fbf vang/7
+  rotate: true
+  xy: 3049, 680
+  size: 674, 609
+  orig: 674, 609
+  offset: 0, 0
+  index: -1
+fbf vang/8
+  rotate: true
+  xy: 1832, 1347
+  size: 689, 613
+  orig: 689, 613
+  offset: 0, 0
+  index: -1
+fbf vang/9
+  rotate: false
+  xy: 2083, 0
+  size: 680, 622
+  orig: 680, 622
+  offset: 0, 0
+  index: -1
+fbf xanh duong/2
+  rotate: false
+  xy: 1208, 592
+  size: 609, 721
+  orig: 609, 721
+  offset: 0, 0
+  index: -1
+fbf xanh duong/3
+  rotate: false
+  xy: 1221, 1315
+  size: 609, 721
+  orig: 609, 721
+  offset: 0, 0
+  index: -1
+fbf xanh duong/7
+  rotate: true
+  xy: 3441, 4
+  size: 674, 609
+  orig: 674, 609
+  offset: 0, 0
+  index: -1
+fbf xanh duong/8
+  rotate: true
+  xy: 2434, 656
+  size: 689, 613
+  orig: 689, 613
+  offset: 0, 0
+  index: -1
+fbf xanh duong/9
+  rotate: true
+  xy: 3002, 1356
+  size: 680, 622
+  orig: 680, 622
+  offset: 0, 0
+  index: -1
+fbf/3
+  rotate: false
+  xy: 0, 585
+  size: 602, 723
+  orig: 602, 723
+  offset: 0, 0
+  index: -1
+xanh
+  rotate: true
+  xy: 1388, 37
+  size: 553, 693
+  orig: 553, 693
+  offset: 0, 0
+  index: -1

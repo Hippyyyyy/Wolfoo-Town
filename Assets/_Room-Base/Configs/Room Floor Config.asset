@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22d6379fe0d215f4a93266a3b155260b, type: 3}
+  m_Name: Room Floor Config
+  m_EditorClassIdentifier: 
+  speed: 4
+  dragDetectMax: 0.03
+  dragDetectMin: 0.5
+  smoothTime: 0.2
+  FLOOR_LAYER: 10
+  TABLE_LAYER: 15
+  OTHER_LAYER: 6
+  OBSTACLE_LAYER: 7
+  TABLE_FOOT: 16
+  BACK_BUTTON: back button
+  OPEN_CHARACTER_BUTTON: open character button
+  ADD_CHARACTER_BUTTON: add character button

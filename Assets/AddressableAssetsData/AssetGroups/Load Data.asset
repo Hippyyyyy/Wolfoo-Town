@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Load Data
+  m_EditorClassIdentifier: 
+  m_GroupName: Load Data
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 03339cdaef99eaf48ab8d935ae6965dd
+  m_SerializeEntries:
+  - m_GUID: d34c10745202fd7449f1a07225109397
+    m_Address: Living Room 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF House
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 824d351f48d49bd41a488db2d5691557
+    m_Address: Living Room 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF House
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c19fb10089c36544a365076a2a4a8e0
+    m_Address: Living Room 3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF House
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e834b3139c909e54a831bb17dd852d68
+    m_Address: Beach Map 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Beach Villa
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0171f53470937e64c80cf47d762e2923
+    m_Address: Camping Park 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF CampingPark
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8e8f44cbd0a154285e010410ce80b9
+    m_Address: Hospital Room 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Hospital
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29cc676403233e141a5da75eff167061
+    m_Address: Hospital Room 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Hospital
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1af7483814e61b148a489d4fce884146
+    m_Address: Hospital Room 3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Hospital
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2679cfd6913fb345aff40f36538b2fa
+    m_Address: Opera Room 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF OPera
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6834e795e09cc39488e5db5b98876939
+    m_Address: Playground ROom 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Playground
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec01f2e802671474b8a81337da1da513
+    m_Address: Mall_Room 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8004c6281d41c94d9dc8719f811b3ad
+    m_Address: Mall_Room 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46a34eaff519b0b47adfd2a5fc75619f
+    m_Address: Mall_Room 3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f1abe86fa17d9439336c61a0c800c2
+    m_Address: Mall_SuperMakert Map
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbe6223b2d9cbac46af2f28462a6529a
+    m_Address: Mall_Toy Map
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05564d7d47317034ba0b81363498c4ba
+    m_Address: Mall_Cake Map
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a05fc6f7831012d448fc5191f0b6c16c
+    m_Address: Cinema Map
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF Shopping
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3092d88a375b2ad4998e1fe058b6e664
+    m_Address: Mediterranean Map 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WF SelfHouse
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9f6695d15b3ca224a8e60f6c9f919f8b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 92a5605e4673a2244bfa2dfd266b44c5, type: 2}
+    - {fileID: 11400000, guid: ebf7161c63c5f3d4e86ea62a8d19fcc2, type: 2}

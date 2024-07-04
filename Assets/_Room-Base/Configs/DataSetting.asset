@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194055c7cc0e83f46924a2477403556f, type: 3}
+  m_Name: DataSetting
+  m_EditorClassIdentifier: 
+  TownDatas:
+  - title: school
+    cityType: 0
+    dataAssetPath:
+    - ShapeData School
+    - ItemsData School
+    - ClayModeData School
+    - AlphaLearningData School
+    scenePath: WolfooSchool_Scene
+  - title: mall
+    cityType: 1
+    dataAssetPath:
+    - ModeData Shopping
+    - ItemsData Shopping
+    - BackItemsData Shopping
+    scenePath: WolfooShoppingMall_Scene
+  - title: house
+    cityType: 2
+    dataAssetPath:
+    - ModeData Shopping
+    - ItemsData Shopping
+    - BackItemsData Shopping
+    scenePath: WFHouse_Scene
+  - title: hospital
+    cityType: 3
+    dataAssetPath:
+    - CharacterData Main
+    scenePath: WFHospital_Scene
+  - title: playground
+    cityType: 4
+    dataAssetPath:
+    - CharacterData Main
+    scenePath: WFPlayground_Scene
+  - title: opera
+    cityType: 5
+    dataAssetPath:
+    - CharacterData Main
+    scenePath: WFOpera_Scene
+  - title: camping park
+    cityType: 8
+    dataAssetPath:
+    - CharacterData Main
+    - New Character
+    scenePath: WFCampingPark_Scene
+  - title: beach villa
+    cityType: 6
+    dataAssetPath:
+    - New Character
+    - BeachVilla Data
+    - CharacterData Main
+    scenePath: WFBeachVilla_Scene
+  - title: city
+    cityType: 7
+    dataAssetPath:
+    - Tutorial Data
+    scenePath: WFBeachVilla_Scene
+  - title: mediterranean
+    cityType: 11
+    dataAssetPath:
+    - Mediterranean Data
+    scenePath: WFMediterranean_Scene
+  AddressDatas:
+  - Tutorial Data
+  - ShapeData School
+  - New Character
+  - ModeData Shopping
+  - ItemsData Shopping
+  - ItemsData School
+  - GameData School
+  - ClayModeData School
+  - CharacterData Main
+  - BeachVilla Data
+  - BackItemsData Shopping
+  - AlphaLearningData School
+  DialogSchoolTag:
+    m_LabelString: Dialog School
+  DialogMallTag:
+    m_LabelString: Dialog Mall

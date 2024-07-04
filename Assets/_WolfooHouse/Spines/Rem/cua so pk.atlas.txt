@@ -1,0 +1,34 @@
+
+cua so pk.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CUA SO
+  rotate: false
+  xy: 713, 0
+  size: 963, 585
+  orig: 963, 585
+  offset: 0, 0
+  index: -1
+REM
+  rotate: true
+  xy: 0, 228
+  size: 357, 711
+  orig: 357, 711
+  offset: 0, 0
+  index: -1
+THANH 1
+  rotate: true
+  xy: 0, 607
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+xa ngang
+  rotate: false
+  xy: 55, 587
+  size: 1298, 40
+  orig: 1298, 40
+  offset: 0, 0
+  index: -1

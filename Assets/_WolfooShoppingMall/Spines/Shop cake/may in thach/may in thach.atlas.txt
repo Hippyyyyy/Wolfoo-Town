@@ -1,0 +1,90 @@
+
+may in thach.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 352, 52
+  size: 174, 359
+  orig: 174, 359
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 0, 29
+  size: 197, 350
+  orig: 197, 350
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1853, 412
+  size: 247, 362
+  orig: 247, 362
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1497, 411
+  size: 354, 363
+  orig: 354, 363
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 1497, 97
+  size: 312, 356
+  orig: 312, 356
+  offset: 0, 0
+  index: -1
+Layer 198
+  rotate: false
+  xy: 713, 0
+  size: 798, 59
+  orig: 798, 59
+  offset: 0, 0
+  index: -1
+Layer 199
+  rotate: true
+  xy: 2213, 1232
+  size: 813, 1041
+  orig: 813, 1041
+  offset: 0, 0
+  index: -1
+Layer 200
+  rotate: false
+  xy: 713, 61
+  size: 298, 165
+  orig: 298, 165
+  offset: 0, 0
+  index: -1
+Layer 204
+  rotate: false
+  xy: 1197, 267
+  size: 298, 507
+  orig: 298, 507
+  offset: 0, 0
+  index: -1
+Layer 210
+  rotate: false
+  xy: 1197, 776
+  size: 1014, 1269
+  orig: 1014, 1269
+  offset: 0, 0
+  index: -1
+Layer 211
+  rotate: false
+  xy: 1013, 98
+  size: 242, 128
+  orig: 242, 128
+  offset: 0, 0
+  index: -1
+Rounded Rectangle 7
+  rotate: false
+  xy: 0, 228
+  size: 1195, 1817
+  orig: 1195, 1817
+  offset: 0, 0
+  index: -1

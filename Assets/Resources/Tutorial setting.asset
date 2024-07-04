@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bdf5ea670372b14aa555838671b330c, type: 3}
+  m_Name: Tutorial setting
+  m_EditorClassIdentifier: 
+  sortingLayer: 
+  orderInLayer: 99
+  referenceResolution: {x: 2208, y: 1242}
+  delayStartTime: 3
+  noReactTime: 5
+  pointerScale: 1
+  pointerVelocity: 7
+  spinArrowSprite: {fileID: 0}
+  focusExpand: 50
+  focusAlpha: 0.66

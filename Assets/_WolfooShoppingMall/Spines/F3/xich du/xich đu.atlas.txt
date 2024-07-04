@@ -1,0 +1,55 @@
+
+xich đu.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 1212, 242
+  size: 48, 708
+  orig: 48, 708
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 1212, 242
+  size: 48, 708
+  orig: 48, 708
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1212, 242
+  size: 48, 708
+  orig: 48, 708
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1212, 242
+  size: 48, 708
+  orig: 48, 708
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1212, 0
+  size: 348, 240
+  orig: 350, 242
+  offset: 1, 1
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1262, 710
+  size: 348, 240
+  orig: 350, 242
+  offset: 1, 1
+  index: -1
+thanh
+  rotate: false
+  xy: 0, 2
+  size: 1210, 948
+  orig: 1210, 948
+  offset: 0, 0
+  index: -1

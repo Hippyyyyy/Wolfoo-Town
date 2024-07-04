@@ -1,0 +1,34 @@
+
+bapbenh.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2842, 8
+  size: 251, 334
+  orig: 251, 334
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 3095, 8
+  size: 251, 334
+  orig: 251, 334
+  offset: 0, 0
+  index: -1
+bap benh
+  rotate: false
+  xy: 0, 0
+  size: 1469, 342
+  orig: 1469, 342
+  offset: 0, 0
+  index: -1
+bong
+  rotate: false
+  xy: 1471, 20
+  size: 1369, 322
+  orig: 1369, 322
+  offset: 0, 0
+  index: -1

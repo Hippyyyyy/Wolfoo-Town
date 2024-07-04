@@ -1,0 +1,111 @@
+
+may bong ngo.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6287
+  rotate: false
+  xy: 796, 11
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+may bong
+  rotate: false
+  xy: 0, 28
+  size: 696, 457
+  orig: 696, 457
+  offset: 0, 0
+  index: -1
+nep kinh
+  rotate: false
+  xy: 698, 95
+  size: 602, 390
+  orig: 602, 390
+  offset: 0, 0
+  index: -1
+ngo 1
+  rotate: false
+  xy: 698, 0
+  size: 96, 93
+  orig: 96, 93
+  offset: 0, 0
+  index: -1
+ngo 10
+  rotate: true
+  xy: 1219, 11
+  size: 82, 81
+  orig: 82, 81
+  offset: 0, 0
+  index: -1
+ngo 11
+  rotate: false
+  xy: 1401, 79
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+ngo 2
+  rotate: false
+  xy: 1302, 58
+  size: 97, 93
+  orig: 97, 93
+  offset: 0, 0
+  index: -1
+ngo 3
+  rotate: false
+  xy: 880, 12
+  size: 83, 81
+  orig: 83, 81
+  offset: 0, 0
+  index: -1
+ngo 4
+  rotate: false
+  xy: 965, 12
+  size: 83, 81
+  orig: 83, 81
+  offset: 0, 0
+  index: -1
+ngo 5
+  rotate: false
+  xy: 1135, 12
+  size: 82, 81
+  orig: 82, 81
+  offset: 0, 0
+  index: -1
+ngo 6
+  rotate: true
+  xy: 1553, 81
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+ngo 7
+  rotate: false
+  xy: 1050, 12
+  size: 83, 81
+  orig: 83, 81
+  offset: 0, 0
+  index: -1
+ngo 8
+  rotate: true
+  xy: 1477, 81
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+ngo 9
+  rotate: true
+  xy: 1628, 81
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+tr may
+  rotate: false
+  xy: 1302, 153
+  size: 696, 332
+  orig: 696, 332
+  offset: 0, 0
+  index: -1

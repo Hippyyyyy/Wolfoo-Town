@@ -1,0 +1,314 @@
+
+Theater.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Christmast/Cloun2
+  rotate: true
+  xy: 1991, 563
+  size: 87, 48
+  orig: 89, 50
+  offset: 1, 1
+  index: -1
+Christmast/Clound1
+  rotate: true
+  xy: 1991, 729
+  size: 82, 52
+  orig: 84, 54
+  offset: 1, 1
+  index: -1
+Christmast/Clound3
+  rotate: false
+  xy: 1649, 834
+  size: 351, 62
+  orig: 353, 64
+  offset: 1, 1
+  index: -1
+Christmast/Gift1
+  rotate: false
+  xy: 1535, 646
+  size: 86, 86
+  orig: 88, 88
+  offset: 1, 1
+  index: -1
+Christmast/Gift2
+  rotate: false
+  xy: 979, 378
+  size: 69, 62
+  orig: 71, 64
+  offset: 1, 1
+  index: -1
+Christmast/Layer 10
+  rotate: false
+  xy: 2002, 813
+  size: 42, 83
+  orig: 670, 201
+  offset: 27, 0
+  index: -1
+Christmast/Layer 8
+  rotate: false
+  xy: 1649, 898
+  size: 363, 121
+  orig: 366, 123
+  offset: 2, 1
+  index: -1
+Christmast/Layer 9
+  rotate: false
+  xy: 246, 434
+  size: 152, 77
+  orig: 156, 80
+  offset: 2, 2
+  index: -1
+Christmast/PupreBush1
+  rotate: true
+  xy: 436, 363
+  size: 271, 102
+  orig: 271, 102
+  offset: 0, 0
+  index: -1
+Christmast/PupreBush2
+  rotate: true
+  xy: 179, 779
+  size: 182, 73
+  orig: 182, 73
+  offset: 0, 0
+  index: -1
+Christmast/Santa
+  rotate: false
+  xy: 1615, 275
+  size: 297, 230
+  orig: 297, 230
+  offset: 0, 0
+  index: -1
+Christmast/Snowman
+  rotate: true
+  xy: 0, 769
+  size: 192, 177
+  orig: 192, 177
+  offset: 0, 0
+  index: -1
+Christmast/Tree1
+  rotate: false
+  xy: 436, 636
+  size: 104, 147
+  orig: 104, 147
+  offset: 0, 0
+  index: -1
+Christmast/land
+  rotate: false
+  xy: 0, 1207
+  size: 1114, 242
+  orig: 1117, 244
+  offset: 1, 1
+  index: -1
+Face2
+  rotate: false
+  xy: 1914, 360
+  size: 133, 145
+  orig: 135, 147
+  offset: 1, 1
+  index: -1
+Grass
+  rotate: true
+  xy: 2014, 947
+  size: 72, 34
+  orig: 74, 34
+  offset: 1, 0
+  index: -1
+Land
+  rotate: false
+  xy: 0, 963
+  size: 1114, 242
+  orig: 1117, 244
+  offset: 1, 1
+  index: -1
+Layer 6 copy 6
+  rotate: true
+  xy: 397, 301
+  size: 60, 139
+  orig: 62, 141
+  offset: 1, 1
+  index: -1
+Layer 6 copy 7
+  rotate: true
+  xy: 397, 301
+  size: 60, 139
+  orig: 62, 141
+  offset: 1, 1
+  index: -1
+Layer 6 copy 8
+  rotate: true
+  xy: 397, 301
+  size: 60, 139
+  orig: 62, 141
+  offset: 1, 1
+  index: -1
+Layer 6 copy 9
+  rotate: true
+  xy: 397, 301
+  size: 60, 139
+  orig: 62, 141
+  offset: 1, 1
+  index: -1
+Layer 7 copy
+  rotate: true
+  xy: 1535, 333
+  size: 311, 78
+  orig: 311, 78
+  offset: 0, 0
+  index: -1
+Layer 7 copy 2
+  rotate: true
+  xy: 1535, 333
+  size: 311, 78
+  orig: 311, 78
+  offset: 0, 0
+  index: -1
+Layer 7 copy 3
+  rotate: true
+  xy: 1535, 333
+  size: 311, 78
+  orig: 311, 78
+  offset: 0, 0
+  index: -1
+Layer 7 copy 4
+  rotate: true
+  xy: 1535, 333
+  size: 311, 78
+  orig: 311, 78
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1649, 1021
+  size: 366, 214
+  orig: 368, 216
+  offset: 1, 1
+  index: -1
+Layer 9
+  rotate: true
+  xy: 992, 442
+  size: 259, 99
+  orig: 261, 101
+  offset: 1, 1
+  index: -1
+Light
+  rotate: true
+  xy: 1116, 985
+  size: 250, 531
+  orig: 253, 533
+  offset: 2, 1
+  index: -1
+Light2
+  rotate: true
+  xy: 1116, 734
+  size: 249, 531
+  orig: 253, 533
+  offset: 1, 1
+  index: -1
+Light3
+  rotate: false
+  xy: 551, 523
+  size: 439, 438
+  orig: 444, 441
+  offset: 1, 1
+  index: -1
+Light4
+  rotate: false
+  xy: 1094, 294
+  size: 439, 438
+  orig: 444, 441
+  offset: 4, 1
+  index: -1
+Vector Smart Object copy 6
+  rotate: false
+  xy: 2017, 1168
+  size: 20, 67
+  orig: 22, 67
+  offset: 1, 0
+  index: -1
+face1
+  rotate: true
+  xy: 246, 301
+  size: 131, 149
+  orig: 133, 151
+  offset: 1, 1
+  index: -1
+rap hat
+  rotate: false
+  xy: 540, 293
+  size: 437, 228
+  orig: 439, 231
+  offset: 1, 1
+  index: -1
+thearter circle/dai 1
+  rotate: false
+  xy: 1116, 1237
+  size: 660, 212
+  orig: 660, 213
+  offset: 0, 1
+  index: -1
+thearter circle/dai 2
+  rotate: false
+  xy: 254, 785
+  size: 295, 176
+  orig: 295, 176
+  offset: 0, 0
+  index: -1
+thearter circle/dai 3
+  rotate: false
+  xy: 1778, 1237
+  size: 268, 212
+  orig: 268, 212
+  offset: 0, 0
+  index: -1
+thearter circle/face 1
+  rotate: true
+  xy: 246, 63
+  size: 236, 262
+  orig: 236, 262
+  offset: 0, 0
+  index: -1
+thearter circle/face 2
+  rotate: true
+  xy: 1649, 507
+  size: 325, 340
+  orig: 325, 340
+  offset: 0, 0
+  index: -1
+thearter circle/mũ
+  rotate: true
+  xy: 0, 0
+  size: 505, 244
+  orig: 505, 244
+  offset: 0, 0
+  index: -1
+thearter circle/nc mat 1
+  rotate: false
+  xy: 979, 314
+  size: 68, 62
+  orig: 68, 62
+  offset: 0, 0
+  index: -1
+thearter circle/nc mat 2
+  rotate: false
+  xy: 1991, 652
+  size: 51, 75
+  orig: 51, 76
+  offset: 0, 0
+  index: -1
+thearter circle/rap hat
+  rotate: false
+  xy: 0, 513
+  size: 434, 219
+  orig: 439, 231
+  offset: 1, 1
+  index: -1
+thearter circle/thearter
+  rotate: true
+  xy: 992, 703
+  size: 258, 100
+  orig: 261, 101
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+chip chip11.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sao (1)
+  rotate: true
+  xy: 0, 181
+  size: 747, 1353
+  orig: 747, 1353
+  offset: 0, 0
+  index: -1
+chip chip1
+  rotate: false
+  xy: 0, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip10
+  rotate: false
+  xy: 1088, 4
+  size: 129, 175
+  orig: 129, 175
+  offset: 0, 0
+  index: -1
+chip chip16
+  rotate: false
+  xy: 1088, 4
+  size: 129, 175
+  orig: 129, 175
+  offset: 0, 0
+  index: -1
+chip chip2
+  rotate: false
+  xy: 695, 0
+  size: 129, 179
+  orig: 129, 179
+  offset: 0, 0
+  index: -1
+chip chip3
+  rotate: false
+  xy: 139, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip4
+  rotate: false
+  xy: 278, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip5
+  rotate: false
+  xy: 957, 4
+  size: 129, 175
+  orig: 129, 175
+  offset: 0, 0
+  index: -1
+chip chip6
+  rotate: false
+  xy: 417, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip11
+  rotate: false
+  xy: 417, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip7
+  rotate: false
+  xy: 826, 0
+  size: 129, 179
+  orig: 129, 179
+  offset: 0, 0
+  index: -1
+chip chip12
+  rotate: false
+  xy: 826, 0
+  size: 129, 179
+  orig: 129, 179
+  offset: 0, 0
+  index: -1
+chip chip18
+  rotate: false
+  xy: 826, 0
+  size: 129, 179
+  orig: 129, 179
+  offset: 0, 0
+  index: -1
+chip chip8
+  rotate: false
+  xy: 556, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip13
+  rotate: false
+  xy: 556, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip17
+  rotate: false
+  xy: 556, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip19
+  rotate: false
+  xy: 556, 1
+  size: 137, 178
+  orig: 137, 178
+  offset: 0, 0
+  index: -1
+chip chip9
+  rotate: false
+  xy: 1219, 4
+  size: 126, 175
+  orig: 126, 175
+  offset: 0, 0
+  index: -1
+chip chip14
+  rotate: false
+  xy: 1219, 4
+  size: 126, 175
+  orig: 126, 175
+  offset: 0, 0
+  index: -1
+chip chip15
+  rotate: false
+  xy: 1219, 4
+  size: 126, 175
+  orig: 126, 175
+  offset: 0, 0
+  index: -1

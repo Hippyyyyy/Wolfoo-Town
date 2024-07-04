@@ -1,0 +1,34 @@
+
+cinema door.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6240
+  rotate: true
+  xy: 0, 0
+  size: 1985, 1351
+  orig: 1985, 1351
+  offset: 0, 0
+  index: -1
+Layer 6244
+  rotate: false
+  xy: 2348, 220
+  size: 740, 1009
+  orig: 740, 1009
+  offset: 0, 0
+  index: -1
+Layer 6245
+  rotate: true
+  xy: 2348, 1231
+  size: 754, 1007
+  orig: 754, 1007
+  offset: 0, 0
+  index: -1
+xich du
+  rotate: true
+  xy: 1353, 424
+  size: 1561, 993
+  orig: 1561, 993
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243a67123e2a7f4db2947c4db55c034, type: 3}
+  m_Name: CategoryMouth
+  m_EditorClassIdentifier: 
+  FeatureCategories: 03000000
+  HairCategory: 0
+  featureFilter: []
+  ColorCategory: 0
+  characterFeatureFilter:
+    filteredFeatures:
+    - {fileID: 11400000, guid: 241d9ee07a7c95f43a7c679a77bfe246, type: 2}
+    - {fileID: 11400000, guid: 700922028a5ae9a4ea36ef2f3ce79d8c, type: 2}
+    - {fileID: 11400000, guid: 1727335fc228fc44596f9e108e8fa4f9, type: 2}
+    - {fileID: 11400000, guid: 11564c58773504543a259fd35654fa0a, type: 2}
+    - {fileID: 11400000, guid: ee020342681f03843814ee15cec1b11c, type: 2}
+    filteredBabyFeatures: []
+    categories: 
+    filteredColorSwatch: []

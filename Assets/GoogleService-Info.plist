@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCW-_IgksgNbZmjQfSvO1o3HRKauas_UNU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>825046904713</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wolfoo.townhall.myworld.street.hometown.citylife</string>
+	<key>PROJECT_ID</key>
+	<string>wolfoo-s-town-dream-city-game</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wolfoo-s-town-dream-city-game.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:825046904713:ios:c0d4610b0007de6cd43b58</string>
+</dict>
+</plist>

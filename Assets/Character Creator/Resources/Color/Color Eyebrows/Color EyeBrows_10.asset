@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdedb9c2ad3a31c4087051a46a419adc, type: 3}
+  m_Name: Color EyeBrows_10
+  m_EditorClassIdentifier: 
+  ID: 10
+  Category: 3
+  Color1: {r: 0.93725497, g: 0.49411768, b: 0.34509805, a: 1}
+  Color2: {r: 0.8235295, g: 0.07450981, b: 0.07058824, a: 1}

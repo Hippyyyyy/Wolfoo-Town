@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a8d583f86e9a24bbdb7345e6c9c083, type: 3}
+  m_Name: Clothes_3
+  m_EditorClassIdentifier: 
+  ID: 3
+  Icon: {fileID: 21300000, guid: 66f60ca4a12f721429f3ed06500990b4, type: 3}
+  Category: 6
+  Front: {fileID: 21300000, guid: 3d7a8646c28efd74e8d17b890c9897c9, type: 3}
+  Back: {fileID: 0}
+  NewlyCreated: 0
+  Metadata:
+    IsAvailableInCharacterCreator: 0
+    IsAvailableForBabies: 0
+    IsAvailableForAdults: 0
+    IsFree: 1
+    UnlockedDateTimeTick: 0
+  ClothesCategory: 0
+  LeftSleeve: {fileID: 21300000, guid: 6bf2e0d7a199c6c44a8b67c0f14cd9e5, type: 3}
+  LeftPant: {fileID: 21300000, guid: 1f5967a591246d74b8cf4c93bedb6319, type: 3}
+  RightSleeve: {fileID: 21300000, guid: 42ff4699e64679c44a8c9378fbbae3a0, type: 3}
+  RightPant: {fileID: 21300000, guid: f1504b72dbf89cb4ca8bb9fc8f90b19d, type: 3}
+  RightShoes: {fileID: 21300000, guid: 9ec02996a8ccefa4482532e3f1c3d199, type: 3}
+  LeftShoes: {fileID: 21300000, guid: df26acf905639b94caf540e344e45aba, type: 3}
+  Hanging: {fileID: 0}

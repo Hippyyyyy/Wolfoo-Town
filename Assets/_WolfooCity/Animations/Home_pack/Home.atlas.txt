@@ -1,0 +1,251 @@
+
+Home.png
+size: 1953,1051
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BuiHoa2
+  rotate: false
+  xy: 1413, 43
+  size: 207, 111
+  orig: 207, 111
+  offset: 0, 0
+  index: -1
+Chauhoa1
+  rotate: false
+  xy: 2, 2
+  size: 274, 74
+  orig: 274, 74
+  offset: 0, 0
+  index: -1
+Group 1
+  rotate: false
+  xy: 2, 685
+  size: 1161, 364
+  orig: 1167, 366
+  offset: 3, 1
+  index: -1
+Hangraotrc
+  rotate: false
+  xy: 2, 78
+  size: 458, 80
+  orig: 460, 82
+  offset: 1, 1
+  index: -1
+Homthu
+  rotate: false
+  xy: 1841, 681
+  size: 98, 210
+  orig: 100, 213
+  offset: 1, 2
+  index: -1
+Lancancheo1
+  rotate: false
+  xy: 931, 2
+  size: 50, 54
+  orig: 52, 56
+  offset: 1, 1
+  index: -1
+Lancancheo2
+  rotate: false
+  xy: 1013, 68
+  size: 52, 55
+  orig: 54, 57
+  offset: 1, 1
+  index: -1
+Nha1
+  rotate: false
+  xy: 2, 160
+  size: 495, 523
+  orig: 497, 525
+  offset: 1, 1
+  index: -1
+buiHoa
+  rotate: true
+  xy: 1841, 480
+  size: 199, 110
+  orig: 199, 110
+  offset: 0, 0
+  index: -1
+buicay1
+  rotate: false
+  xy: 931, 58
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+buicay2
+  rotate: false
+  xy: 931, 58
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+buicay11
+  rotate: false
+  xy: 1165, 642
+  size: 361, 226
+  orig: 361, 226
+  offset: 0, 0
+  index: -1
+buicay21
+  rotate: false
+  xy: 1387, 156
+  size: 234, 146
+  orig: 234, 146
+  offset: 0, 0
+  index: -1
+buicay3
+  rotate: false
+  xy: 1109, 145
+  size: 276, 175
+  orig: 276, 175
+  offset: 0, 0
+  index: -1
+cay1
+  rotate: false
+  xy: 1794, 893
+  size: 85, 156
+  orig: 85, 156
+  offset: 0, 0
+  index: -1
+cay2
+  rotate: true
+  xy: 462, 4
+  size: 102, 190
+  orig: 102, 190
+  offset: 0, 0
+  index: -1
+cay3
+  rotate: true
+  xy: 654, 4
+  size: 102, 190
+  orig: 102, 190
+  offset: 0, 0
+  index: -1
+cay4
+  rotate: true
+  xy: 931, 125
+  size: 297, 176
+  orig: 297, 176
+  offset: 0, 0
+  index: -1
+cayanqua
+  rotate: true
+  xy: 499, 108
+  size: 264, 430
+  orig: 264, 430
+  offset: 0, 0
+  index: -1
+chaucay1
+  rotate: false
+  xy: 374, 6
+  size: 41, 70
+  orig: 43, 72
+  offset: 1, 1
+  index: -1
+chauhoa2
+  rotate: false
+  xy: 278, 2
+  size: 94, 74
+  orig: 94, 74
+  offset: 0, 0
+  index: -1
+chauhoa3
+  rotate: true
+  xy: 846, 8
+  size: 98, 83
+  orig: 98, 83
+  offset: 0, 0
+  index: -1
+hangrao
+  rotate: false
+  xy: 905, 424
+  size: 244, 259
+  orig: 246, 261
+  offset: 1, 1
+  index: -1
+lanca2
+  rotate: true
+  xy: 1109, 322
+  size: 100, 38
+  orig: 102, 40
+  offset: 1, 1
+  index: -1
+lancan
+  rotate: true
+  xy: 1881, 948
+  size: 101, 37
+  orig: 103, 39
+  offset: 1, 1
+  index: -1
+lancan3
+  rotate: false
+  xy: 1835, 346
+  size: 100, 37
+  orig: 102, 39
+  offset: 1, 1
+  index: -1
+maicheo1
+  rotate: false
+  xy: 1109, 55
+  size: 302, 88
+  orig: 304, 90
+  offset: 1, 1
+  index: -1
+nha2
+  rotate: false
+  xy: 499, 374
+  size: 404, 309
+  orig: 407, 311
+  offset: 2, 1
+  index: -1
+nhà user
+  rotate: false
+  xy: 1528, 519
+  size: 311, 349
+  orig: 535, 349
+  offset: 224, 0
+  index: -1
+phao
+  rotate: false
+  xy: 1835, 385
+  size: 105, 93
+  orig: 107, 95
+  offset: 1, 1
+  index: -1
+san1
+  rotate: false
+  xy: 1165, 870
+  size: 627, 179
+  orig: 629, 181
+  offset: 1, 1
+  index: -1
+tuongcay1
+  rotate: false
+  xy: 1151, 322
+  size: 353, 318
+  orig: 355, 320
+  offset: 1, 1
+  index: -1
+tuongcay2
+  rotate: false
+  xy: 1622, 29
+  size: 216, 76
+  orig: 218, 78
+  offset: 1, 1
+  index: -1
+tuongcay3
+  rotate: false
+  xy: 1506, 304
+  size: 327, 213
+  orig: 329, 215
+  offset: 1, 1
+  index: -1
+tuongcay4
+  rotate: false
+  xy: 1623, 107
+  size: 252, 195
+  orig: 254, 197
+  offset: 1, 1
+  index: -1

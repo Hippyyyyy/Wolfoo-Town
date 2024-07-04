@@ -1,0 +1,636 @@
+
+Amusement_park.png
+size: 4065,3491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body2
+  rotate: false
+  xy: 1427, 191
+  size: 368, 375
+  orig: 368, 375
+  offset: 0, 0
+  index: -1
+Chrismast/Gif
+  rotate: true
+  xy: 3011, 30
+  size: 102, 153
+  orig: 104, 155
+  offset: 1, 1
+  index: -1
+Chrismast/Gif2
+  rotate: false
+  xy: 3337, 64
+  size: 116, 94
+  orig: 120, 96
+  offset: 2, 1
+  index: -1
+Chrismast/Light
+  rotate: false
+  xy: 2, 1700
+  size: 1986, 425
+  orig: 1986, 425
+  offset: 0, 0
+  index: -1
+Chrismast/Santa
+  rotate: false
+  xy: 2415, 539
+  size: 303, 425
+  orig: 304, 425
+  offset: 1, 0
+  index: -1
+Chrismast/Snowman
+  rotate: true
+  xy: 3696, 487
+  size: 227, 338
+  orig: 227, 339
+  offset: 0, 1
+  index: -1
+Chrismast/Star
+  rotate: false
+  xy: 3434, 1048
+  size: 595, 153
+  orig: 595, 153
+  offset: 0, 0
+  index: -1
+Chrismast/bell
+  rotate: false
+  xy: 3182, 18
+  size: 153, 134
+  orig: 155, 136
+  offset: 1, 1
+  index: -1
+Chrismast/bui1
+  rotate: true
+  xy: 3753, 716
+  size: 330, 230
+  orig: 330, 231
+  offset: 0, 1
+  index: -1
+Chrismast/bui2
+  rotate: true
+  xy: 2154, 213
+  size: 344, 193
+  orig: 344, 193
+  offset: 0, 0
+  index: -1
+Chrismast/bui3
+  rotate: true
+  xy: 2154, 213
+  size: 344, 193
+  orig: 344, 193
+  offset: 0, 0
+  index: -1
+Chrismast/bui5
+  rotate: true
+  xy: 3182, 154
+  size: 220, 152
+  orig: 220, 152
+  offset: 0, 0
+  index: -1
+Chrismast/cay1
+  rotate: true
+  xy: 2764, 1983
+  size: 388, 650
+  orig: 388, 650
+  offset: 0, 0
+  index: -1
+Chrismast/cay2
+  rotate: true
+  xy: 3434, 1657
+  size: 556, 551
+  orig: 556, 551
+  offset: 0, 0
+  index: -1
+Chrismast/cay5
+  rotate: false
+  xy: 1990, 1709
+  size: 126, 244
+  orig: 126, 244
+  offset: 0, 0
+  index: -1
+Chrismast/land
+  rotate: false
+  xy: 2, 2127
+  size: 2025, 676
+  orig: 2027, 678
+  offset: 1, 1
+  index: -1
+Chrismast/thong1
+  rotate: true
+  xy: 2029, 1955
+  size: 400, 733
+  orig: 400, 733
+  offset: 0, 0
+  index: -1
+Chrismast/tuyet0.1
+  rotate: false
+  xy: 415, 6
+  size: 277, 126
+  orig: 279, 128
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet0.2
+  rotate: false
+  xy: 415, 6
+  size: 277, 126
+  orig: 279, 128
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet1
+  rotate: true
+  xy: 3455, 69
+  size: 89, 104
+  orig: 91, 106
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet2
+  rotate: false
+  xy: 3633, 324
+  size: 256, 161
+  orig: 258, 164
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet3.2
+  rotate: false
+  xy: 3633, 324
+  size: 256, 161
+  orig: 258, 164
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet2.2
+  rotate: true
+  xy: 871, 17
+  size: 206, 56
+  orig: 208, 58
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet3
+  rotate: true
+  xy: 3940, 2243
+  size: 201, 83
+  orig: 203, 85
+  offset: 1, 1
+  index: -1
+Chrismast/tuyet3.1
+  rotate: true
+  xy: 2682, 222
+  size: 315, 86
+  orig: 317, 88
+  offset: 1, 1
+  index: -1
+Cot3
+  rotate: true
+  xy: 1427, 2
+  size: 187, 352
+  orig: 189, 354
+  offset: 1, 1
+  index: -1
+Ellipse 7 copy 5
+  rotate: false
+  xy: 2764, 1960
+  size: 133, 21
+  orig: 135, 23
+  offset: 1, 1
+  index: -1
+Floor3
+  rotate: true
+  xy: 1977, 559
+  size: 450, 233
+  orig: 452, 235
+  offset: 1, 1
+  index: -1
+Gate
+  rotate: false
+  xy: 1426, 568
+  size: 549, 441
+  orig: 549, 441
+  offset: 0, 0
+  index: -1
+Hangrao-Sau
+  rotate: false
+  xy: 2029, 3092
+  size: 2026, 397
+  orig: 2028, 399
+  offset: 1, 1
+  index: -1
+Hangrao.l
+  rotate: true
+  xy: 3482, 2215
+  size: 875, 456
+  orig: 877, 458
+  offset: 1, 1
+  index: -1
+Hangrao.r
+  rotate: false
+  xy: 973, 31
+  size: 452, 425
+  orig: 454, 427
+  offset: 1, 1
+  index: -1
+Land
+  rotate: false
+  xy: 2, 2805
+  size: 2025, 684
+  orig: 2027, 686
+  offset: 1, 1
+  index: -1
+Layer 1011
+  rotate: true
+  xy: 2906, 1024
+  size: 957, 238
+  orig: 957, 238
+  offset: 0, 0
+  index: -1
+Layer 1011 copy
+  rotate: true
+  xy: 2120, 1016
+  size: 937, 317
+  orig: 937, 317
+  offset: 0, 0
+  index: -1
+Layer 1011 copy 2
+  rotate: true
+  xy: 721, 225
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+Layer 1035
+  rotate: true
+  xy: 3343, 553
+  size: 234, 351
+  orig: 235, 351
+  offset: 0, 0
+  index: -1
+Layer 1035 copy 2
+  rotate: true
+  xy: 3343, 553
+  size: 234, 351
+  orig: 235, 351
+  offset: 0, 0
+  index: -1
+Layer 1035 copy
+  rotate: true
+  xy: 2770, 147
+  size: 163, 244
+  orig: 163, 244
+  offset: 0, 0
+  index: -1
+Mai2
+  rotate: true
+  xy: 2720, 561
+  size: 416, 325
+  orig: 416, 326
+  offset: 0, 0
+  index: -1
+Mai3
+  rotate: false
+  xy: 3343, 789
+  size: 408, 257
+  orig: 410, 259
+  offset: 1, 1
+  index: -1
+Ngua1
+  rotate: false
+  xy: 694, 12
+  size: 175, 211
+  orig: 175, 211
+  offset: 0, 0
+  index: -1
+Ngua2
+  rotate: true
+  xy: 3891, 382
+  size: 103, 172
+  orig: 103, 172
+  offset: 0, 0
+  index: -1
+Ngua3
+  rotate: false
+  xy: 2664, 2
+  size: 102, 218
+  orig: 102, 219
+  offset: 0, 1
+  index: -1
+Rectangle 3 copy 10
+  rotate: true
+  xy: 3630, 32
+  size: 144, 188
+  orig: 146, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 11
+  rotate: true
+  xy: 3820, 24
+  size: 144, 188
+  orig: 146, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 12
+  rotate: false
+  xy: 3198, 412
+  size: 143, 188
+  orig: 145, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 13
+  rotate: false
+  xy: 3483, 160
+  size: 145, 188
+  orig: 147, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 5
+  rotate: false
+  xy: 2517, 33
+  size: 145, 188
+  orig: 147, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 7
+  rotate: true
+  xy: 3630, 178
+  size: 144, 188
+  orig: 146, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 8
+  rotate: false
+  xy: 3336, 160
+  size: 145, 188
+  orig: 147, 190
+  offset: 1, 1
+  index: -1
+Rectangle 3 copy 9
+  rotate: true
+  xy: 3820, 170
+  size: 144, 188
+  orig: 146, 190
+  offset: 1, 1
+  index: -1
+Vector Smart Object
+  rotate: false
+  xy: 1990, 2038
+  size: 37, 87
+  orig: 39, 89
+  offset: 1, 1
+  index: -1
+bong do
+  rotate: false
+  xy: 3416, 2262
+  size: 56, 109
+  orig: 58, 111
+  offset: 1, 1
+  index: -1
+bong vang
+  rotate: false
+  xy: 2938, 11
+  size: 71, 134
+  orig: 73, 136
+  offset: 1, 1
+  index: -1
+bong xanh
+  rotate: false
+  xy: 3146, 1051
+  size: 50, 85
+  orig: 53, 87
+  offset: 2, 1
+  index: -1
+bong1
+  rotate: true
+  xy: 3005, 442
+  size: 117, 33
+  orig: 119, 35
+  offset: 1, 1
+  index: -1
+bong2
+  rotate: false
+  xy: 2906, 989
+  size: 127, 33
+  orig: 129, 35
+  offset: 1, 1
+  index: -1
+bong3
+  rotate: false
+  xy: 735, 977
+  size: 130, 33
+  orig: 132, 35
+  offset: 1, 1
+  index: -1
+bong4
+  rotate: false
+  xy: 2129, 2
+  size: 127, 31
+  orig: 129, 33
+  offset: 1, 1
+  index: -1
+bong5
+  rotate: true
+  xy: 3940, 2446
+  size: 644, 123
+  orig: 646, 125
+  offset: 1, 1
+  index: -1
+bui cay1
+  rotate: false
+  xy: 2, 134
+  size: 687, 111
+  orig: 687, 111
+  offset: 0, 0
+  index: -1
+buicay2
+  rotate: true
+  xy: 3985, 735
+  size: 311, 78
+  orig: 311, 78
+  offset: 0, 0
+  index: -1
+cay1
+  rotate: true
+  xy: 3891, 316
+  size: 64, 163
+  orig: 64, 163
+  offset: 0, 0
+  index: -1
+cay2
+  rotate: true
+  xy: 2129, 35
+  size: 176, 248
+  orig: 176, 248
+  offset: 0, 0
+  index: -1
+cay3
+  rotate: false
+  xy: 3987, 2078
+  size: 64, 163
+  orig: 64, 163
+  offset: 0, 0
+  index: -1
+cay3.1
+  rotate: false
+  xy: 2770, 312
+  size: 233, 247
+  orig: 233, 247
+  offset: 0, 0
+  index: -1
+cay3.2
+  rotate: true
+  xy: 2768, 3
+  size: 142, 168
+  orig: 142, 168
+  offset: 0, 0
+  index: -1
+cay4
+  rotate: false
+  xy: 2379, 2
+  size: 136, 219
+  orig: 136, 219
+  offset: 0, 0
+  index: -1
+cay4.1
+  rotate: false
+  xy: 3016, 134
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+chan-sau
+  rotate: false
+  xy: 973, 458
+  size: 451, 552
+  orig: 451, 552
+  offset: 0, 0
+  index: -1
+chan-trc
+  rotate: true
+  xy: 3434, 1203
+  size: 452, 602
+  orig: 452, 602
+  offset: 0, 0
+  index: -1
+co1
+  rotate: false
+  xy: 2, 33
+  size: 411, 99
+  orig: 413, 102
+  offset: 1, 2
+  index: -1
+co2
+  rotate: true
+  xy: 3047, 376
+  size: 646, 149
+  orig: 648, 151
+  offset: 1, 1
+  index: -1
+co3
+  rotate: true
+  xy: 3198, 602
+  size: 534, 143
+  orig: 536, 145
+  offset: 1, 1
+  index: -1
+dat1
+  rotate: true
+  xy: 2439, 966
+  size: 987, 245
+  orig: 989, 247
+  offset: 1, 1
+  index: -1
+dat2
+  rotate: true
+  xy: 3146, 1138
+  size: 843, 286
+  orig: 845, 288
+  offset: 1, 1
+  index: -1
+dat3
+  rotate: true
+  xy: 2686, 979
+  size: 974, 218
+  orig: 976, 220
+  offset: 1, 1
+  index: -1
+den1
+  rotate: true
+  xy: 2, 7
+  size: 24, 96
+  orig: 26, 98
+  offset: 1, 1
+  index: -1
+door2
+  rotate: false
+  xy: 3343, 350
+  size: 288, 201
+  orig: 290, 202
+  offset: 1, 1
+  index: -1
+floor2
+  rotate: true
+  xy: 2212, 578
+  size: 436, 201
+  orig: 438, 203
+  offset: 1, 1
+  index: -1
+glow
+  rotate: false
+  xy: 2349, 223
+  size: 331, 314
+  orig: 350, 317
+  offset: 2, 2
+  index: -1
+nantron_sau
+  rotate: false
+  xy: 735, 1012
+  size: 691, 686
+  orig: 693, 688
+  offset: 1, 1
+  index: -1
+thghe
+  rotate: false
+  xy: 1797, 218
+  size: 355, 339
+  orig: 355, 339
+  offset: 0, 0
+  index: -1
+tron_sau
+  rotate: false
+  xy: 2763, 2373
+  size: 717, 717
+  orig: 719, 719
+  offset: 1, 1
+  index: -1
+tron_trc
+  rotate: false
+  xy: 2, 247
+  size: 717, 717
+  orig: 719, 719
+  offset: 1, 1
+  index: -1
+voi
+  rotate: true
+  xy: 1781, 2
+  size: 187, 346
+  orig: 188, 346
+  offset: 1, 0
+  index: -1
+vongnansau_trc3
+  rotate: false
+  xy: 1428, 1011
+  size: 690, 687
+  orig: 692, 689
+  offset: 1, 1
+  index: -1
+vongsau-sau
+  rotate: false
+  xy: 2029, 2357
+  size: 732, 733
+  orig: 734, 735
+  offset: 1, 1
+  index: -1
+vongsau_trc
+  rotate: false
+  xy: 2, 966
+  size: 731, 732
+  orig: 733, 734
+  offset: 1, 1
+  index: -1

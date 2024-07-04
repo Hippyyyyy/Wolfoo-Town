@@ -1,0 +1,55 @@
+
+cửa cine F2.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 0, 0
+  size: 1688, 1147
+  orig: 1688, 1147
+  offset: 0, 0
+  index: -1
+cua 1
+  rotate: false
+  xy: 2504, 1206
+  size: 754, 1007
+  orig: 754, 1007
+  offset: 0, 0
+  index: -1
+cua 2
+  rotate: true
+  xy: 2504, 464
+  size: 740, 1009
+  orig: 740, 1009
+  offset: 0, 0
+  index: -1
+cua cine file
+  rotate: true
+  xy: 2692, 2215
+  size: 1691, 1253
+  orig: 1691, 1253
+  offset: 0, 0
+  index: -1
+hinh sau
+  rotate: true
+  xy: 1692, 1077
+  size: 1221, 810
+  orig: 1221, 810
+  offset: 0, 0
+  index: -1
+mark
+  rotate: false
+  xy: 0, 2300
+  size: 2690, 1606
+  orig: 2690, 1606
+  offset: 0, 0
+  index: -1
+sau
+  rotate: false
+  xy: 0, 1149
+  size: 1690, 1149
+  orig: 1690, 1149
+  offset: 0, 0
+  index: -1

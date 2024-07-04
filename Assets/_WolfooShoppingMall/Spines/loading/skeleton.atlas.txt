@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sau Rieng
+  rotate: true
+  xy: 287, 2
+  size: 231, 283
+  orig: 231, 283
+  offset: 0, 0
+  index: -1
+bot mi
+  rotate: false
+  xy: 572, 31
+  size: 235, 228
+  orig: 235, 228
+  offset: 0, 0
+  index: -1
+hop bong
+  rotate: true
+  xy: 0, 0
+  size: 222, 285
+  orig: 222, 285
+  offset: 0, 0
+  index: -1
+qua do
+  rotate: false
+  xy: 555, 261
+  size: 280, 244
+  orig: 280, 244
+  offset: 0, 0
+  index: -1
+toi monkey
+  rotate: false
+  xy: 0, 224
+  size: 285, 281
+  orig: 285, 281
+  offset: 0, 0
+  index: -1
+toy lion
+  rotate: false
+  xy: 287, 235
+  size: 266, 270
+  orig: 266, 270
+  offset: 0, 0
+  index: -1

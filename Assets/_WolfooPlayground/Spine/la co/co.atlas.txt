@@ -1,0 +1,48 @@
+
+co.png
+size: 1014,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CO
+  rotate: false
+  xy: 2, 2
+  size: 211, 149
+  orig: 211, 149
+  offset: 0, 0
+  index: -1
+COT
+  rotate: true
+  xy: 641, 117
+  size: 34, 371
+  orig: 36, 373
+  offset: 1, 1
+  index: -1
+xanh/cot xanh
+  rotate: true
+  xy: 641, 81
+  size: 34, 371
+  orig: 34, 371
+  offset: 0, 0
+  index: -1
+xanh/xanh
+  rotate: false
+  xy: 215, 2
+  size: 211, 149
+  orig: 211, 149
+  offset: 0, 0
+  index: -1
+yellow/cot vang
+  rotate: true
+  xy: 641, 45
+  size: 34, 371
+  orig: 34, 371
+  offset: 0, 0
+  index: -1
+yellow/vang
+  rotate: false
+  xy: 428, 2
+  size: 211, 149
+  orig: 211, 149
+  offset: 0, 0
+  index: -1

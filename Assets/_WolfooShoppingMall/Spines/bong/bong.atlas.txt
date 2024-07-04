@@ -1,0 +1,90 @@
+
+bong.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 117874
+  rotate: false
+  xy: 0, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117881
+  rotate: false
+  xy: 0, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117875
+  rotate: false
+  xy: 180, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117882
+  rotate: false
+  xy: 180, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117876
+  rotate: false
+  xy: 360, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117886
+  rotate: false
+  xy: 360, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117877
+  rotate: false
+  xy: 540, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117883
+  rotate: false
+  xy: 540, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117878
+  rotate: false
+  xy: 720, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117884
+  rotate: false
+  xy: 720, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117885
+  rotate: false
+  xy: 900, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+Layer 117887
+  rotate: false
+  xy: 900, 0
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1

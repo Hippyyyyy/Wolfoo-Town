@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b7507c1034b2a4b8a72fda9270f011, type: 3}
+  m_Name: BackItemsData
+  m_EditorClassIdentifier: Assembly-CSharp::BackItemsDataSO
+  plasticCupData:
+    beverageColorSprites:
+    - {fileID: 21300000, guid: be0aa23e6b00d81488ac19932ac672aa, type: 3}
+    - {fileID: 21300000, guid: 6ef4dede83e181e46a9ba290b9ca870f, type: 3}
+    - {fileID: 21300000, guid: 9445273e1912acc40bebbeee874839eb, type: 3}
+    sideDownSprite: {fileID: 21300000, guid: 838fb8e1d7f3c1141ae1e230fb11e6db, type: 3}
+  filmTicketData:
+    ticketColorSprites:
+    - {fileID: 21300000, guid: 7dda802047ba9784e80f439d4141567b, type: 3}
+    - {fileID: 21300000, guid: eb9722cd3098c0741ae90491accffe5d, type: 3}
+    - {fileID: 21300000, guid: 37de7113132cf0a4e8728a615f68ba97, type: 3}
+    - {fileID: 21300000, guid: 4b841d2e4b1cbaa42bc15f1f0d9c2717, type: 3}
+    moneySprites:
+    - {fileID: 21300000, guid: 70862d71d7fbb544cb61f33d4c6729f5, type: 3}
+    - {fileID: 21300000, guid: 5514fea3db6b6ff49adf0e1020d3dfc4, type: 3}
+    - {fileID: 21300000, guid: 9a9b0a425b0132541a2355f842e57c05, type: 3}
+  filmData:
+    clipsData:
+    - episodeClips:
+      - {fileID: 32900000, guid: 9d25aaf5eb1dc8f4ea81b12cfde11621, type: 3}
+      - {fileID: 32900000, guid: 3f95f717779bf174285423aa22f0658a, type: 3}
+      - {fileID: 32900000, guid: 2c07533cc599cab43b52d92c49f7e802, type: 3}
+    - episodeClips:
+      - {fileID: 32900000, guid: 239a4c29a1065894abfeee66d3eb408a, type: 3}
+      - {fileID: 32900000, guid: 528102c67269ece498876ed29d4542e7, type: 3}
+      - {fileID: 32900000, guid: 41e83399453649342873ba70fca497ca, type: 3}
+    - episodeClips:
+      - {fileID: 32900000, guid: cbf6dcc50dd8e704bad766b43ee30850, type: 3}
+      - {fileID: 32900000, guid: d32e64406e1103841a8188eea3b61ff5, type: 3}
+      - {fileID: 32900000, guid: 666745eb151813a45b42b180d2dd25d8, type: 3}
+    thumbnailSprites:
+    - {fileID: 21300000, guid: d6b5a1a830a25984482158fe18088a6c, type: 3}
+    - {fileID: 21300000, guid: 6b15bd6d919371b40b62102ec999ecd1, type: 3}
+    - {fileID: 21300000, guid: bee650a257f0d9d45b06da89792cf87b, type: 3}
+    - {fileID: 21300000, guid: a4f6dd7fbb3d39440a58b19b6b942201, type: 3}
+    - {fileID: 21300000, guid: a129bb1f274932448b6407b9f44141fd, type: 3}
+    - {fileID: 21300000, guid: 1dfcb626f7a07f2478ddba13c26e6bc8, type: 3}
+    - {fileID: 21300000, guid: aae80c19f4c260f40bc559e7f99e1044, type: 3}
+    - {fileID: 21300000, guid: 5e76e5a838fc6514689e540ecd2c8b45, type: 3}
+    - {fileID: 21300000, guid: 5c12242f67b7bf74685f2db162389c84, type: 3}
+    allClips:
+    - {fileID: 32900000, guid: 7bdd6e6e6e1cad640a53e4559ba310f4, type: 3}
+    - {fileID: 32900000, guid: c2384809d8ef50b4bbf5229d5a6e34cf, type: 3}
+    - {fileID: 32900000, guid: 0e77fe74cb8fe104d944146b1e54924b, type: 3}
+    - {fileID: 32900000, guid: 239a4c29a1065894abfeee66d3eb408a, type: 3}
+    - {fileID: 32900000, guid: 528102c67269ece498876ed29d4542e7, type: 3}
+    - {fileID: 32900000, guid: 41e83399453649342873ba70fca497ca, type: 3}
+    - {fileID: 32900000, guid: cbf6dcc50dd8e704bad766b43ee30850, type: 3}
+    - {fileID: 32900000, guid: d32e64406e1103841a8188eea3b61ff5, type: 3}
+    - {fileID: 32900000, guid: 666745eb151813a45b42b180d2dd25d8, type: 3}
+  doorData:
+    blueDoorSprites:
+    - {fileID: 21300000, guid: fdd9064343d1db34a850de0986b80b1d, type: 3}
+    - {fileID: 21300000, guid: ff25c537b3aeccb4cb035bd706504ad9, type: 3}
+    stoveDoorSprites:
+    - {fileID: 21300000, guid: caec6c2a4a7270c44ab4e42e06a90e36, type: 3}
+    - {fileID: 21300000, guid: 49d8d4ef70461b44d9f4ba12b3c03f8b, type: 3}
+    elevatorSprites:
+    - {fileID: 21300000, guid: 21913987b2b7eb141a4c690878370b75, type: 3}
+    - {fileID: 21300000, guid: 7c7f440f2b568834c9c2ab046dc649cd, type: 3}
+    curtainsSprites:
+    - {fileID: 21300000, guid: eab8093cda38db04d84f3b429f67f33d, type: 3}
+    - {fileID: 21300000, guid: 4f6e43d5f3433e446a6398dbcf9bb191, type: 3}
+  flowerData:
+    idleSprites:
+    - {fileID: 21300000, guid: 1aec1c2f11f015f47b5bce583d47e010, type: 3}
+    - {fileID: 21300000, guid: b7830b989842c4c4aaca71c88bd4ccc9, type: 3}
+    - {fileID: 21300000, guid: 60f938e7ed0466f418a90bb1ea866c81, type: 3}
+    - {fileID: 21300000, guid: 20aaee3b735681e478e02e3e29609515, type: 3}
+    - {fileID: 21300000, guid: 97eedf6865608b047bed60bc4c95483c, type: 3}
+    - {fileID: 21300000, guid: 414596866517dc8408a2f3a460ed0312, type: 3}
+    - {fileID: 21300000, guid: 4bdd8579d2912f144880702a583fab9a, type: 3}
+    tiedSprites:
+    - {fileID: 21300000, guid: 8e26565da52d0304a8a3e1a63df1a211, type: 3}
+    - {fileID: 21300000, guid: d4b4a7ae9a62d034c88d2f26aa7cfd21, type: 3}
+    - {fileID: 21300000, guid: 52b1837a6fa6a2b4f9c6219307fe0e43, type: 3}
+    - {fileID: 21300000, guid: fa44eec4d006aac4bb03a93783fd4151, type: 3}
+    - {fileID: 21300000, guid: bf8818cc4ce01dd438b9dbcd8a65568f, type: 3}
+    - {fileID: 21300000, guid: 6c2435086946c1d47b07daf1dbd215e9, type: 3}
+    - {fileID: 21300000, guid: d80e52b1480610d4c99e4380de00c0cf, type: 3}
+    - {fileID: 21300000, guid: cd28c955374704944883d06eb8bbc297, type: 3}
+    peanutSprites:
+    - {fileID: 21300000, guid: 4dc729a963cabcc4eb53866f5cb2423f, type: 3}
+    - {fileID: 21300000, guid: 4c6e4670510b55c4380249c55ade5c23, type: 3}
+    - {fileID: 21300000, guid: e946057f7a63fe34b8235e0b369523ae, type: 3}
+    - {fileID: 21300000, guid: 72c7dd1773a4b9f4e86a74f87277361c, type: 3}
+    - {fileID: 21300000, guid: db6e1c924223b0540bda3049ac39fe3c, type: 3}
+    - {fileID: 21300000, guid: 526e2cbce39fe1046943d7d12d902aa2, type: 3}
+  CakeData:
+    cakeSprites:
+    - {fileID: 21300000, guid: 0b5d957d874cba64b836fefa2ecc07e4, type: 3}
+    - {fileID: 21300000, guid: 561d764dc39d63b40b1dd8037f891efa, type: 3}
+    - {fileID: 21300000, guid: 9e7759f11d83ca74d9b2fb7bb1c2016f, type: 3}
+    - {fileID: 21300000, guid: dd8cde325b1d9704e9865788b0811e40, type: 3}
+    - {fileID: 21300000, guid: 1ce8275069807174fa951cda2f4198cf, type: 3}
+    - {fileID: 21300000, guid: 79a3ae212cd912a44beb1027633a91b3, type: 3}
+    - {fileID: 21300000, guid: 35ba1aaea5f1ee246a489aa0d3bd6e9e, type: 3}
+    - {fileID: 21300000, guid: f39ca7853dcaf3345b225119387e5fa2, type: 3}
+    - {fileID: 21300000, guid: ca0fadc94cb4c7241ae30b77ab1d4717, type: 3}
+    - {fileID: 21300000, guid: 076cea4f3d559ad4eaf46237a84c9842, type: 3}
+    - {fileID: 21300000, guid: 910a92a780463364689859353a66b722, type: 3}
+    - {fileID: 21300000, guid: a10b13ffc610c444aa2eeba67f161135, type: 3}
+    - {fileID: 21300000, guid: 0921bea5e577f6846a4196ad852176d4, type: 3}
+    - {fileID: 21300000, guid: 9b4cc43b8e49e3d409a33aa0f816d10b, type: 3}
+    - {fileID: 21300000, guid: 9961eee4585984042a8faf74b3e9394c, type: 3}
+    - {fileID: 21300000, guid: 6105d1e60e6f27048965d743cba03de4, type: 3}
+    - {fileID: 21300000, guid: 92bbedc3b723aea49a540a23444d68ac, type: 3}
+    - {fileID: 21300000, guid: 110a992d39252ae46aaff919ebcfcbbb, type: 3}
+    - {fileID: 21300000, guid: e8580dd34e8248c438fb7dc9fed79a8a, type: 3}
+    - {fileID: 21300000, guid: 817d9a422b1e568418fb3223da572934, type: 3}
+    - {fileID: 21300000, guid: cb0b5a8fb74c0104896024ef3841f2ba, type: 3}
+    - {fileID: 21300000, guid: d4ae75c15ff9702448ba1f1dd311d314, type: 3}
+    - {fileID: 21300000, guid: 0fa7cca61708d03429a67638572965a3, type: 3}
+    creamCakeSprites:
+    - {fileID: 21300000, guid: 41f6aa79abdbf4a48937dca614c7c1ca, type: 3}
+    - {fileID: 21300000, guid: 0b8ff60ce05637a4f93862c3783f751b, type: 3}
+    - {fileID: 21300000, guid: e7fa2903f12e71144af798c25f7686a6, type: 3}
+    - {fileID: 21300000, guid: 3c380df801f44e045b1d0a2d6940bf80, type: 3}
+    - {fileID: 21300000, guid: 92c9e72f90d1fec45bb3010292d23be1, type: 3}
+    creamHandmadeSprites:
+    - {fileID: 21300000, guid: 72b90638a9969e64d8c6eb05cd219cf2, type: 3}
+    - {fileID: 21300000, guid: ce05ab06d78297b40b9fd5f3258a9f66, type: 3}
+    - {fileID: 21300000, guid: bb18e71734bbf2d43a369b92dba573ce, type: 3}
+    - {fileID: 21300000, guid: 2d9854d56951bc046a77f1ac538453fd, type: 3}
+    - {fileID: 21300000, guid: b7d92226909d19d4cb67043324767ca6, type: 3}
+    colors: 0000000002000000030000000100000004000000
+  PizzaData:
+    toppingSprites:
+    - {fileID: 21300000, guid: cf89bfdb71a8ade41a113a3858fea486, type: 3}
+    - {fileID: 21300000, guid: ea8ef244c0e62294fbd3a0b4437c4e29, type: 3}
+    - {fileID: 21300000, guid: db26cd4c4e28d12429a367a328f014e1, type: 3}
+    - {fileID: 21300000, guid: e1911115ce7fe7041a6543f6ea027ed4, type: 3}
+    - {fileID: 21300000, guid: 0f2a9f1041528414db160628c90a5c0e, type: 3}
+    - {fileID: 21300000, guid: 5b68e6871bfb2464ca5732403dcfbb44, type: 3}
+    - {fileID: 21300000, guid: 118bf3b39db37f24eb43b01bf9c5546d, type: 3}
+    - {fileID: 21300000, guid: 8b5678d73c685c544a98974f79942a12, type: 3}
+    - {fileID: 21300000, guid: 1e29eda0fb05bb5499e7b6da0030723b, type: 3}
+    - {fileID: 21300000, guid: adb7441f1529cee4f8aaac5acd12638a, type: 3}
+    - {fileID: 21300000, guid: c81a4755cf53df54cb0d5b412ebb257a, type: 3}
+    - {fileID: 21300000, guid: d69aa9ee8f7e0944494d9d57fdfbd7da, type: 3}
+    - {fileID: 21300000, guid: d09a6386f56359547ba320ff56f2a947, type: 3}
+    pizzaSprites:
+    - {fileID: 21300000, guid: 7f443237e40672049b2fcacde47fe20d, type: 3}
+    boxSprite: {fileID: 0}
+  smokeFallingFxPb: {fileID: 6724342749061314869, guid: b7ae15f817d40b64fbf45cb68e5b3846, type: 3}
+  maskPb: {fileID: 5644482335350170433, guid: 6bf8c15f96d020940a4e33a76344a173, type: 3}

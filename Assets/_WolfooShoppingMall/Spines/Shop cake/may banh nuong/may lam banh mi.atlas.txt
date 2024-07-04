@@ -1,0 +1,41 @@
+
+may lam banh mi.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 277
+  rotate: false
+  xy: 885, 96
+  size: 293, 272
+  orig: 293, 272
+  offset: 0, 0
+  index: -1
+Layer 278
+  rotate: false
+  xy: 885, 545
+  size: 1048, 199
+  orig: 1048, 199
+  offset: 0, 0
+  index: -1
+Layer 279
+  rotate: false
+  xy: 885, 370
+  size: 1138, 173
+  orig: 1138, 173
+  offset: 0, 0
+  index: -1
+Rounded Rectangle 10
+  rotate: false
+  xy: 0, 0
+  size: 883, 744
+  orig: 883, 744
+  offset: 0, 0
+  index: -1
+Rounded Rectangle 11
+  rotate: false
+  xy: 0, 746
+  size: 1764, 143
+  orig: 1764, 143
+  offset: 0, 0
+  index: -1

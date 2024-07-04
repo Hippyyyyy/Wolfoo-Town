@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1b7cf0e372ae4592dc07fac201368, type: 3}
+  m_Name: BeachVilla Data
+  m_EditorClassIdentifier: 
+  DecorDatas:
+  - DecorType: 1
+    OptionDatas:
+    - Icon: {fileID: 21300000, guid: 0d7bc96cfdd026b43b87494dcdbb8bd0, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 14ad73e357eeca44f9e54e7358bb68aa, type: 3}
+      - {fileID: 21300000, guid: 2e6a17901dcf7944d9e8910f1b2a5f7b, type: 3}
+      - {fileID: 21300000, guid: 7a79700158fc7864d8335674fe414414, type: 3}
+      - {fileID: 21300000, guid: db29c2df38b26a7448774bda7489a572, type: 3}
+      - {fileID: 21300000, guid: ef9163a1737a910408fe0eed8903400f, type: 3}
+      - {fileID: 21300000, guid: 59596fbd55a99174b8981b2e5fbc5c82, type: 3}
+      - {fileID: 21300000, guid: befffca6b30245b4c9d187001bb6722c, type: 3}
+      - {fileID: 21300000, guid: 7d28ad63c4e888349a4e38849a4a1218, type: 3}
+      ItemPrefabs:
+      - {fileID: 4118365112064611770, guid: 890c4f603740c634ebedcd52c8ab5f49, type: 3}
+      - {fileID: 5741353763661456651, guid: bbef15bab6a733f40a63cdbc703020c3, type: 3}
+      - {fileID: 1592162190770619211, guid: 0eadd488ded986148aa9db03b99dd607, type: 3}
+      - {fileID: 4622543762946801617, guid: a0ebdbf41332ae342b97cb8c3dd8b5a5, type: 3}
+      - {fileID: 7137735602782363756, guid: 4690fd0d47e22d44393a3650d24c48c5, type: 3}
+      - {fileID: 6419394119513221199, guid: a1857b31b7fceb64c8a048f8dc79f836, type: 3}
+      - {fileID: 7423837465234102946, guid: bbfcbb7db57646a48aaa3ea497b7f4b3, type: 3}
+      - {fileID: 4444378769740285823, guid: c6f9e06a33b870246a7b78fca9e1cc27, type: 3}
+      OptionScrollItems: {fileID: 7736866239773680542, guid: efe52fb4ac66cd74baea7a3da9a7a5de, type: 3}
+    - Icon: {fileID: 21300000, guid: 0c801a72aee2aac498ffb9dc5ca10ead, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: cdf85a1ddbe1ae04fb7e54cf2e3e11cb, type: 3}
+      - {fileID: 21300000, guid: 2bff0be61e1420d44af855e933440b7b, type: 3}
+      - {fileID: 21300000, guid: 4086e49918272024289faff1e1e52131, type: 3}
+      - {fileID: 21300000, guid: 1309b6aedc1c44d41b04ae826fc90033, type: 3}
+      - {fileID: 21300000, guid: c23a1ed1b3113354a908c3851cd090ad, type: 3}
+      - {fileID: 21300000, guid: 418ab8c999df5334296723533a145fe1, type: 3}
+      - {fileID: 21300000, guid: d4d580d82fe81014a97ed245456d16ef, type: 3}
+      ItemPrefabs:
+      - {fileID: 8916710704689026989, guid: 175e83a42c169f349afb04da595b6d42, type: 3}
+      - {fileID: 211725616202446186, guid: 141238736399627489eff821155b9364, type: 3}
+      - {fileID: 6877072324492497488, guid: c0a9065a29878a344b4dc8b95887f749, type: 3}
+      - {fileID: 8260827839125644900, guid: 2e39c52b127e5394a946e0fa8ba4e083, type: 3}
+      - {fileID: 4412537258787424755, guid: f1562926b2b4893469e692cc373d6d68, type: 3}
+      - {fileID: 587716424043063174, guid: 457852d96c76b5849a092635b8036a83, type: 3}
+      - {fileID: 5830892961897082546, guid: d4b45967cbaba9f4ab034b385128ee22, type: 3}
+      OptionScrollItems: {fileID: 8901636966414923198, guid: 2453720060eb21c41b6985efce4d824a, type: 3}
+    - Icon: {fileID: 21300000, guid: 7f9c996b7e38a184691b01759ec89e8e, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 64d43f7355959a643940e90fc1f7782a, type: 3}
+      - {fileID: 21300000, guid: 95f2156e3714847458fb4fa51e24ebee, type: 3}
+      - {fileID: 21300000, guid: 7a3a323fa07eb924eac9ec743147dec9, type: 3}
+      - {fileID: 21300000, guid: 0150236a74293f94789549906e4c3105, type: 3}
+      ItemPrefabs:
+      - {fileID: 2067839083960926772, guid: 6f92d9d4394216f49851139db1ac8640, type: 3}
+      - {fileID: 1410897477453496061, guid: 14563fc50368319489fbf3c10c463cee, type: 3}
+      - {fileID: 3186411843460076824, guid: ef765353cab2d844294193bbce778090, type: 3}
+      - {fileID: 2474167509108690391, guid: 36e3be4ae554ddb42811f198a5e1fc8f, type: 3}
+      OptionScrollItems: {fileID: 4836753309697776446, guid: a43a61d8b65217543b93f5bb6c71cf99, type: 3}
+    - Icon: {fileID: 21300000, guid: 88a082083bb46074780a54f9921eccf1, type: 3}
+      ItemSprites: []
+      ItemPrefabs: []
+      OptionScrollItems: {fileID: 916434556160031817, guid: 2e24e69289aa1b94f9011e54aad78b93, type: 3}
+  - DecorType: 2
+    OptionDatas:
+    - Icon: {fileID: 21300000, guid: bd348386e2fd5ae4d8d816ffe24eb179, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 55d1672f8002a494690bcda4c51f39b1, type: 3}
+      - {fileID: 21300000, guid: d3dcc5971687961418ba4f4a0947611c, type: 3}
+      - {fileID: 21300000, guid: 9e6760f41f24e49468f1c494d0124321, type: 3}
+      - {fileID: 21300000, guid: a1165acf3c7d3bf4880a0b97a01092c4, type: 3}
+      - {fileID: 21300000, guid: c7bc8dc26db50994cbbe0ee09e275022, type: 3}
+      ItemPrefabs:
+      - {fileID: 8259570315250010125, guid: 725d010a4c7c2b24481b4fc606277018, type: 3}
+      - {fileID: 4463615250717587900, guid: 9642c6c3aa3b4864098a81d03ef38994, type: 3}
+      - {fileID: 5142861759217084484, guid: 01b781571a5a259409664060700b4309, type: 3}
+      - {fileID: 1379490298278940063, guid: 353c2086c32749a4c9533841b04f8644, type: 3}
+      - {fileID: 3105869597630260993, guid: e8274542edd747a40ae0052a0a5e5998, type: 3}
+      OptionScrollItems: {fileID: 6654377741144830800, guid: 1b1dc35f26445e14d8d74c3f29c3ddd8, type: 3}
+    - Icon: {fileID: 21300000, guid: 3fc35ded615c70249ae20481780decbb, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 08a3de8bda4e9a9459ea46f7bed89c83, type: 3}
+      - {fileID: 21300000, guid: a383fdde82c32494eb8bd31089f448e9, type: 3}
+      - {fileID: 21300000, guid: efe7e5fdb9cc3e64a95f2f38da02b919, type: 3}
+      - {fileID: 21300000, guid: 7bb99b2d6d9b1914d86f410d4ed23236, type: 3}
+      - {fileID: 21300000, guid: 7d98bd0372d8a4d4bb151af4097d5b03, type: 3}
+      ItemPrefabs:
+      - {fileID: 2312840255459388960, guid: 25607ba276062f94b9f0544b100c3b68, type: 3}
+      - {fileID: 3653739873017939811, guid: aa5f8c3e5888ed344af0b365625460bc, type: 3}
+      - {fileID: 5808155860837862203, guid: bcb68d190b55cda41ab037f12ff2950d, type: 3}
+      - {fileID: 437094716068454791, guid: d21157cd0729baf4b9482ebe1e05382a, type: 3}
+      - {fileID: 2252278619919928148, guid: ae375744b17c4f04a85a933223515c64, type: 3}
+      OptionScrollItems: {fileID: 4380023517035666121, guid: a92f3be0fd8be8448aae4c66a54417e5, type: 3}
+  - DecorType: 3
+    OptionDatas:
+    - Icon: {fileID: 21300000, guid: ff25279103e62ce4588078be8544fd5b, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: f498890d2a4955e4fa643d9ea46adff4, type: 3}
+      - {fileID: 21300000, guid: 278e7c46c30cbe842b9d342ad34d01cc, type: 3}
+      - {fileID: 21300000, guid: c72cc552c5c42144298e889ea4e3e03c, type: 3}
+      - {fileID: 21300000, guid: 41ce6a363c8d0bb4a8aa98b56216470c, type: 3}
+      - {fileID: 21300000, guid: 214358983e26aa948b1a551d851db158, type: 3}
+      ItemPrefabs:
+      - {fileID: 5506042500370795444, guid: 0760f7adf71888e458bfa7202d951190, type: 3}
+      - {fileID: 6465173087777015201, guid: f05e2b278267fdb44b2ab70c814a6c7b, type: 3}
+      - {fileID: 5725169702664369350, guid: 6dee537ebbccf1e4cb56785e7e817429, type: 3}
+      - {fileID: 8418011624571949437, guid: ec17993e06f757e40a0698fdd51a8f7e, type: 3}
+      - {fileID: 1352515266632565526, guid: 345e0419f847c034c972d0d1ca934708, type: 3}
+      OptionScrollItems: {fileID: 68361669039268009, guid: e9de6590a6459304aa03d4de69ea3afe, type: 3}
+    - Icon: {fileID: 21300000, guid: 0d7bc96cfdd026b43b87494dcdbb8bd0, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: ca471b598e73c33468e1a95b5f3ed132, type: 3}
+      - {fileID: 21300000, guid: 7f6cf1c0f27c3db49a087bb02b20a8a8, type: 3}
+      - {fileID: 21300000, guid: c8157efb7303e4a499058a29d18e4936, type: 3}
+      - {fileID: 21300000, guid: b7487c2bdced673498fd27a83a08af77, type: 3}
+      - {fileID: 21300000, guid: a2d1ce00c240cfb448ae566eaa6cb9b9, type: 3}
+      ItemPrefabs:
+      - {fileID: 2938596510960837457, guid: 9a9fb8b1c64774a49affa8103302aa58, type: 3}
+      - {fileID: 7027687318252017288, guid: 5ed4cb40baa85514d8d7f5ea77e3fb10, type: 3}
+      - {fileID: 6340547620201175847, guid: fed8a22bbf1e374479e385d060152c7a, type: 3}
+      - {fileID: 7327951485002777463, guid: 8a13dc9b4bc368e47a0cb07ca5805c87, type: 3}
+      - {fileID: 1577941293589814404, guid: 8c4a9ab877eb5b840b4e52b3620218b8, type: 3}
+      OptionScrollItems: {fileID: 8528985935732691989, guid: a292786bc56d03a48ae09ac52c4db91d, type: 3}
+    - Icon: {fileID: 21300000, guid: 4b29cc93dc59d744ab03957fe3fe0c26, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 10e3de27e2749294f90b4960eefec596, type: 3}
+      - {fileID: 21300000, guid: c7c5d8dc5ea1f2a47b5da9c615b6e236, type: 3}
+      - {fileID: 21300000, guid: 909f323e9565d8d4bb32d6c6db6b1e9c, type: 3}
+      - {fileID: 21300000, guid: d1ed9627cd4703244afe27734bd2cb2c, type: 3}
+      - {fileID: 21300000, guid: 98c4faf41c833d84490d4bf449fc865a, type: 3}
+      ItemPrefabs:
+      - {fileID: 1862344039166960366, guid: 9323b015664e2b94f897e0a869fa89e6, type: 3}
+      - {fileID: 7945177238044124486, guid: d8c1538de37831d498381be9d15921b4, type: 3}
+      - {fileID: 8787453975267905683, guid: 9450f8ff33e0eda43a1f446d6ba1c531, type: 3}
+      - {fileID: 8124079390636785920, guid: e9246856b1c2e4d45a5ef27609023d81, type: 3}
+      - {fileID: 113526647326142367, guid: f0cb7d03180241e4ba415261fa2a6477, type: 3}
+      OptionScrollItems: {fileID: 6626912761490281208, guid: 06ba7fc0a9a35394fa395bd4e1cfaca9, type: 3}
+  - DecorType: 4
+    OptionDatas:
+    - Icon: {fileID: 21300000, guid: 47491e9e5f948e445960a0495bef3aa5, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 96fed4793c95bf540b711e33330f7002, type: 3}
+      - {fileID: 21300000, guid: 0777d7feb83e73d419d766918f3dd8c9, type: 3}
+      - {fileID: 21300000, guid: 0d8b40d800598a947bb9c06001345eac, type: 3}
+      - {fileID: 21300000, guid: 3074c43ffacae1748a1b9ebdf514b7c7, type: 3}
+      - {fileID: 21300000, guid: b2ec80bcd1ab1c64c9644e5b5cd996b7, type: 3}
+      ItemPrefabs:
+      - {fileID: 7974002129732780734, guid: 8cbe72059a17b7d408f4f94157f8b933, type: 3}
+      - {fileID: 5833829982916909038, guid: da8b0322b597f4b40aaa71568a5399c1, type: 3}
+      - {fileID: 5916557583984174187, guid: 508c620b558e9e74d87ce43822ce86ab, type: 3}
+      - {fileID: 3026927317478090797, guid: 07d19559da868194cbf0cae2e66ed55f, type: 3}
+      - {fileID: 5700917884313144450, guid: c65791fc6473ffd4e8dcd85082a72751, type: 3}
+      OptionScrollItems: {fileID: 1735404869402854580, guid: e4938c023762ce54fad3af3cce5c8d98, type: 3}
+    - Icon: {fileID: 21300000, guid: e87925432087d094095f8da125992313, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: d8fe0922a4fc2df4e8a4e4d33077afeb, type: 3}
+      - {fileID: 21300000, guid: 6e448fef571d85c41bd07bdf0f7a4998, type: 3}
+      - {fileID: 21300000, guid: b94909a586a63014aaa273d8ddae678c, type: 3}
+      - {fileID: 21300000, guid: 558ef5905ab131743b239f54967714e9, type: 3}
+      - {fileID: 21300000, guid: 217080bae41dd204aadde86bd5970094, type: 3}
+      ItemPrefabs:
+      - {fileID: 6214319152550440808, guid: 1b4212b345f62714388b014f9a26d100, type: 3}
+      - {fileID: 4615809034460882138, guid: b6cd380f73d964b4f965ef241b3f21cf, type: 3}
+      - {fileID: 7585032578769880342, guid: e1789cb627ca65b449e715d4ab874c71, type: 3}
+      - {fileID: 5170773230315580987, guid: e7ffb638514434842828b244e8476a4f, type: 3}
+      - {fileID: 3714453226497029682, guid: 4e7780107cf23cd4a989e8a177de599d, type: 3}
+      OptionScrollItems: {fileID: 932643689350167269, guid: b6aaec7a85fe2c14fa9d713a4a613885, type: 3}
+    - Icon: {fileID: 21300000, guid: d4ee6be9da917a545b0ba839bd4679be, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 7b8e57d8d7ec6f847a9e21351d4325e4, type: 3}
+      - {fileID: 21300000, guid: b1661bab189a07942a9ce98b13a56b9b, type: 3}
+      - {fileID: 21300000, guid: 2d1be26c0a4cd6d4d93060209fd5ca6b, type: 3}
+      - {fileID: 21300000, guid: f495d7fb09ec7354485dfb3a035ba4e6, type: 3}
+      - {fileID: 21300000, guid: 5e7fb1511a571454cbe8b6d661b2d298, type: 3}
+      ItemPrefabs:
+      - {fileID: 6269816449236523238, guid: 1deb0aa8342b1454e8924b98c64e66ac, type: 3}
+      - {fileID: 5051348515937433139, guid: f614332e6f3ab14438ecca21eaaf465f, type: 3}
+      - {fileID: 8040256150402067804, guid: b0851554b23b51d498e82706311f3322, type: 3}
+      - {fileID: 907450288246073510, guid: 61894651eb4cf6f44953ef44d6fe7851, type: 3}
+      - {fileID: 7754301400346465996, guid: b3713a782ff1c3f4f8dbe2529855a927, type: 3}
+      OptionScrollItems: {fileID: 630106353577060389, guid: 534e8d57ad3acc247867ea65a4b754ac, type: 3}
+    - Icon: {fileID: 21300000, guid: 0d80b428720e2ce4db5b9b91f613403a, type: 3}
+      ItemSprites:
+      - {fileID: 21300000, guid: 43535e1dcbed176438642d16c2992f53, type: 3}
+      - {fileID: 21300000, guid: 51b15463162da28419c323577f8f9e0d, type: 3}
+      - {fileID: 21300000, guid: 228bf592d0a420f4080162e52ac4f872, type: 3}
+      ItemPrefabs:
+      - {fileID: 6797813817063235737, guid: 80886311ce521e140a483cfdf2c17df9, type: 3}
+      - {fileID: 1460151365126270375, guid: 927bac4d1cbc22645a5676b146e9f46a, type: 3}
+      - {fileID: 31792110562903982, guid: 93023cc0b2b3f6c46adb1b3db188e844, type: 3}
+      OptionScrollItems: {fileID: 2332460049683578047, guid: 53d0763f723965f45bc2d41f1032616e, type: 3}
+  WallPaintingDatas:
+  - colorName: 1
+    color: {r: 0.654902, g: 0.9176471, b: 1, a: 1}
+  - colorName: 0
+    color: {r: 0.9490197, g: 0.5176471, b: 0.5176471, a: 1}
+  - colorName: 2
+    color: {r: 0.654902, g: 0.7411765, b: 1, a: 1}
+  - colorName: 3
+    color: {r: 1, g: 0.91372555, b: 0.654902, a: 1}
+  - colorName: 4
+    color: {r: 0.9921569, g: 0.8980393, b: 0.8980393, a: 1}
+  FloorPaintingDatas:
+  - colorName: 8
+    color: {r: 0.9450981, g: 0.8352942, b: 0.7411765, a: 1}
+  - colorName: 4
+    color: {r: 1, g: 0.78823537, b: 0.8000001, a: 1}
+  - colorName: 5
+    color: {r: 0.48627454, g: 0.7568628, b: 0.7019608, a: 1}
+  - colorName: 6
+    color: {r: 0.73333335, g: 0.7843138, b: 0.3647059, a: 1}
+  - colorName: 7
+    color: {r: 0.7568628, g: 0.52156866, b: 0.34901962, a: 1}

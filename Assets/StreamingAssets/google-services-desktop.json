@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825046904713",
+    "project_id": "wolfoo-s-town-dream-city-game",
+    "storage_bucket": "wolfoo-s-town-dream-city-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825046904713:android:754a00654d1b21c9d43b58",
+        "android_client_info": {
+          "package_name": "wolfoo.townhall.myworld.street.hometown.citylife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6IL6goBg_kNA7EUSZ_c1FblPjZCNciI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+
+bep benh.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 116
+  rotate: false
+  xy: 582, 644
+  size: 582, 282
+  orig: 582, 282
+  offset: 0, 0
+  index: -1
+Layer 117
+  rotate: false
+  xy: 1166, 641
+  size: 586, 285
+  orig: 586, 285
+  offset: 0, 0
+  index: -1
+Layer 118
+  rotate: false
+  xy: 190, 744
+  size: 390, 182
+  orig: 390, 182
+  offset: 0, 0
+  index: -1
+Layer 119
+  rotate: true
+  xy: 0, 792
+  size: 134, 188
+  orig: 134, 188
+  offset: 0, 0
+  index: -1
+Layer 123
+  rotate: false
+  xy: 880, 0
+  size: 881, 639
+  orig: 881, 639
+  offset: 0, 0
+  index: -1
+Layer 124
+  rotate: false
+  xy: 0, 84
+  size: 878, 558
+  orig: 878, 558
+  offset: 0, 0
+  index: -1

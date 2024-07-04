@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80efe05d591549d4ba741e3e642d97e3, type: 3}
+  m_Name: IAP Manger
+  m_EditorClassIdentifier: 
+  romanticBeach: {fileID: 11400000, guid: 4e4bbc8dec79629478054ea37a57ee64, type: 2}
+  rainbowApartment: {fileID: 11400000, guid: d17cbfe5c0e999b4c8808685fa0f8806, type: 2}
+  familyHouse: {fileID: 11400000, guid: 5e02317c8a4293143b5a6ad9fb0bf2dc, type: 2}

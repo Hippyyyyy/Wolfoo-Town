@@ -1,0 +1,153 @@
+
+park_pack.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vector Smart Object copy 22
+  rotate: true
+  xy: 1320, 239
+  size: 272, 221
+  orig: 272, 221
+  offset: 0, 0
+  index: -1
+cay 1
+  rotate: true
+  xy: 707, 13
+  size: 47, 28
+  orig: 49, 30
+  offset: 1, 1
+  index: -1
+cay cao 1
+  rotate: true
+  xy: 334, 0
+  size: 60, 181
+  orig: 60, 181
+  offset: 0, 0
+  index: -1
+cay cao 2
+  rotate: true
+  xy: 334, 0
+  size: 60, 181
+  orig: 60, 181
+  offset: 0, 0
+  index: -1
+cay cao 3
+  rotate: true
+  xy: 334, 0
+  size: 60, 181
+  orig: 60, 181
+  offset: 0, 0
+  index: -1
+cay thong 1
+  rotate: false
+  xy: 1371, 117
+  size: 77, 120
+  orig: 79, 122
+  offset: 1, 1
+  index: -1
+cay thong 3
+  rotate: false
+  xy: 1371, 117
+  size: 77, 120
+  orig: 79, 122
+  offset: 1, 1
+  index: -1
+cay thong 2
+  rotate: true
+  xy: 1371, 38
+  size: 77, 120
+  orig: 79, 122
+  offset: 1, 1
+  index: -1
+cay tim
+  rotate: false
+  xy: 1124, 38
+  size: 150, 154
+  orig: 150, 154
+  offset: 0, 0
+  index: -1
+cong vien nho
+  rotate: false
+  xy: 0, 185
+  size: 1087, 326
+  orig: 1087, 326
+  offset: 0, 0
+  index: -1
+day treo
+  rotate: false
+  xy: 334, 62
+  size: 426, 121
+  orig: 428, 123
+  offset: 1, 1
+  index: -1
+leu
+  rotate: true
+  xy: 1276, 54
+  size: 138, 93
+  orig: 140, 95
+  offset: 1, 1
+  index: -1
+lum cay 1
+  rotate: true
+  xy: 601, 8
+  size: 52, 51
+  orig: 54, 53
+  offset: 1, 1
+  index: -1
+lum cay 2
+  rotate: true
+  xy: 654, 8
+  size: 52, 51
+  orig: 54, 53
+  offset: 1, 1
+  index: -1
+lum cay 3
+  rotate: true
+  xy: 654, 8
+  size: 52, 51
+  orig: 54, 53
+  offset: 1, 1
+  index: -1
+lum cay 4
+  rotate: true
+  xy: 654, 8
+  size: 52, 51
+  orig: 54, 53
+  offset: 1, 1
+  index: -1
+lum cay 5
+  rotate: true
+  xy: 654, 8
+  size: 52, 51
+  orig: 54, 53
+  offset: 1, 1
+  index: -1
+sang 1
+  rotate: true
+  xy: 0, 21
+  size: 162, 332
+  orig: 167, 334
+  offset: 1, 1
+  index: -1
+sang 2
+  rotate: true
+  xy: 762, 53
+  size: 130, 360
+  orig: 133, 364
+  offset: 2, 1
+  index: -1
+sang 3
+  rotate: false
+  xy: 1089, 194
+  size: 229, 317
+  orig: 232, 322
+  offset: 2, 1
+  index: -1
+tuong vang 2
+  rotate: true
+  xy: 517, 14
+  size: 46, 82
+  orig: 48, 84
+  offset: 1, 1
+  index: -1

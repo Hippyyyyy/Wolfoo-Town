@@ -1,0 +1,335 @@
+
+Hospital.png
+size: 1935,475
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
++
+  rotate: true
+  xy: 1165, 21
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1
+Buidling
+  rotate: true
+  xy: 2, 257
+  size: 216, 363
+  orig: 218, 365
+  offset: 1, 1
+  index: -1
+Chrismast/Group 4
+  rotate: false
+  xy: 1295, 4
+  size: 155, 276
+  orig: 155, 276
+  offset: 0, 0
+  index: -1
+Chrismast/Group 5
+  rotate: true
+  xy: 1504, 9
+  size: 138, 183
+  orig: 138, 183
+  offset: 0, 0
+  index: -1
+Chrismast/Group 6
+  rotate: true
+  xy: 797, 13
+  size: 106, 136
+  orig: 106, 136
+  offset: 0, 0
+  index: -1
+Chrismast/Layer 10
+  rotate: false
+  xy: 168, 9
+  size: 135, 61
+  orig: 135, 62
+  offset: 0, 0
+  index: -1
+Chrismast/Layer 11
+  rotate: false
+  xy: 1877, 231
+  size: 36, 21
+  orig: 36, 21
+  offset: 0, 0
+  index: -1
+Chrismast/Layer 12
+  rotate: true
+  xy: 1661, 176
+  size: 37, 19
+  orig: 37, 20
+  offset: 0, 1
+  index: -1
+Chrismast/Layer 13
+  rotate: true
+  xy: 1452, 183
+  size: 97, 50
+  orig: 97, 50
+  offset: 0, 0
+  index: -1
+Chrismast/Layer 5
+  rotate: true
+  xy: 1508, 149
+  size: 324, 124
+  orig: 324, 143
+  offset: 0, 0
+  index: -1
+Chrismast/Layer 9
+  rotate: true
+  xy: 134, 7
+  size: 71, 32
+  orig: 72, 34
+  offset: 0, 1
+  index: -1
+Chrismast/Vector Smart Object
+  rotate: false
+  xy: 1801, 254
+  size: 111, 219
+  orig: 111, 219
+  offset: 0, 0
+  index: -1
+Chrismast/Vector Smart Object-1
+  rotate: true
+  xy: 1295, 282
+  size: 191, 211
+  orig: 191, 211
+  offset: 0, 0
+  index: -1
+Chrismast/Vector Smart Object-2
+  rotate: true
+  xy: 1193, 111
+  size: 146, 90
+  orig: 146, 90
+  offset: 0, 0
+  index: -1
+Chrismast/Vector Smart Object-3
+  rotate: false
+  xy: 1801, 218
+  size: 74, 34
+  orig: 74, 34
+  offset: 0, 0
+  index: -1
+Chrismast/Vector Smart Object-4
+  rotate: true
+  xy: 305, 3
+  size: 67, 59
+  orig: 67, 59
+  offset: 0, 0
+  index: -1
+Fist_Loor
+  rotate: false
+  xy: 367, 74
+  size: 236, 183
+  orig: 238, 185
+  offset: 1, 1
+  index: -1
+Fist_floor
+  rotate: true
+  xy: 1634, 215
+  size: 258, 165
+  orig: 260, 167
+  offset: 1, 1
+  index: -1
+Glow
+  rotate: false
+  xy: 1689, 23
+  size: 244, 190
+  orig: 257, 190
+  offset: 1, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 1634, 149
+  size: 21, 38
+  orig: 23, 40
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy
+  rotate: false
+  xy: 935, 7
+  size: 99, 42
+  orig: 101, 44
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 2
+  rotate: false
+  xy: 605, 102
+  size: 190, 155
+  orig: 192, 157
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 3
+  rotate: false
+  xy: 2, 80
+  size: 190, 175
+  orig: 192, 177
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 4
+  rotate: false
+  xy: 1036, 7
+  size: 96, 42
+  orig: 98, 44
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 10
+  rotate: false
+  xy: 1036, 7
+  size: 96, 42
+  orig: 98, 44
+  offset: 1, 1
+  index: -1
+Rectangle 65 copy 7
+  rotate: true
+  xy: 740, 4
+  size: 96, 43
+  orig: 99, 46
+  offset: 1, 1
+  index: -1
+Second_floor
+  rotate: false
+  xy: 194, 72
+  size: 170, 183
+  orig: 172, 185
+  offset: 1, 1
+  index: -1
+Tree1
+  rotate: true
+  xy: 797, 121
+  size: 136, 192
+  orig: 136, 192
+  offset: 0, 0
+  index: -1
+Vector Smart Object
+  rotate: false
+  xy: 1452, 111
+  size: 50, 70
+  orig: 50, 70
+  offset: 0, 0
+  index: -1
+Vector Smart Object copy 5
+  rotate: false
+  xy: 1452, 39
+  size: 50, 70
+  orig: 50, 70
+  offset: 0, 0
+  index: -1
+Vector Smart Object copy 7
+  rotate: false
+  xy: 935, 51
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: -1
+Vector Smart Object3
+  rotate: false
+  xy: 1689, 8
+  size: 123, 13
+  orig: 126, 15
+  offset: 2, 1
+  index: -1
+Xe
+  rotate: false
+  xy: 366, 2
+  size: 130, 70
+  orig: 132, 72
+  offset: 1, 1
+  index: -1
+Xe2
+  rotate: false
+  xy: 2, 7
+  size: 130, 71
+  orig: 132, 73
+  offset: 1, 1
+  index: -1
+board
+  rotate: false
+  xy: 991, 188
+  size: 200, 69
+  orig: 202, 71
+  offset: 1, 1
+  index: -1
+bushes
+  rotate: false
+  xy: 1814, 3
+  size: 30, 18
+  orig: 32, 20
+  offset: 1, 1
+  index: -1
+bushes1
+  rotate: false
+  xy: 1814, 3
+  size: 30, 18
+  orig: 32, 20
+  offset: 1, 1
+  index: -1
+bushes2
+  rotate: false
+  xy: 1452, 9
+  size: 46, 28
+  orig: 48, 30
+  offset: 1, 1
+  index: -1
+bushes3
+  rotate: false
+  xy: 1452, 9
+  size: 46, 28
+  orig: 48, 30
+  offset: 1, 1
+  index: -1
+bushes4
+  rotate: false
+  xy: 1452, 9
+  size: 46, 28
+  orig: 48, 30
+  offset: 1, 1
+  index: -1
+bushes5
+  rotate: true
+  xy: 1634, 172
+  size: 41, 25
+  orig: 43, 27
+  offset: 1, 1
+  index: -1
+bushes8
+  rotate: true
+  xy: 1674, 156
+  size: 18, 13
+  orig: 20, 15
+  offset: 1, 1
+  index: -1
+bushes9
+  rotate: true
+  xy: 1674, 156
+  size: 18, 13
+  orig: 20, 15
+  offset: 1, 1
+  index: -1
+den
+  rotate: true
+  xy: 498, 29
+  size: 43, 102
+  orig: 45, 104
+  offset: 1, 1
+  index: -1
+denxe
+  rotate: false
+  xy: 605, 13
+  size: 133, 87
+  orig: 135, 89
+  offset: 1, 1
+  index: -1
+trai tym
+  rotate: false
+  xy: 991, 51
+  size: 172, 135
+  orig: 172, 135
+  offset: 0, 0
+  index: -1
+yard
+  rotate: false
+  xy: 367, 259
+  size: 926, 214
+  orig: 928, 216
+  offset: 1, 1
+  index: -1

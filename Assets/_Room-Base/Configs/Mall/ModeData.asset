@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff0efe0b21099f4081dd8e040c6217e, type: 3}
+  m_Name: ModeData
+  m_EditorClassIdentifier: 
+  MapDatas:
+  - mapType: 0
+    panel: {fileID: 4263741383773264373, guid: dbe6223b2d9cbac46af2f28462a6529a, type: 3}
+  - mapType: 1
+    panel: {fileID: 6293107160093589455, guid: a05fc6f7831012d448fc5191f0b6c16c, type: 3}
+  - mapType: 2
+    panel: {fileID: 6897990834873458509, guid: 05564d7d47317034ba0b81363498c4ba, type: 3}
+  - mapType: 3
+    panel: {fileID: 4219081078830246442, guid: 08f1abe86fa17d9439336c61a0c800c2, type: 3}

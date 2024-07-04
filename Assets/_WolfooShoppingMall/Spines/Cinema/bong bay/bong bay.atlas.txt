@@ -1,0 +1,69 @@
+
+bong bay.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 0, 0
+  size: 77, 371
+  orig: 77, 371
+  offset: 0, 0
+  index: -1
+Layer 6298
+  rotate: true
+  xy: 1143, 101
+  size: 269, 342
+  orig: 269, 342
+  offset: 0, 0
+  index: -1
+Layer 6299
+  rotate: false
+  xy: 1487, 25
+  size: 265, 345
+  orig: 265, 345
+  offset: 0, 0
+  index: -1
+Layer 6306
+  rotate: true
+  xy: 435, 78
+  size: 376, 381
+  orig: 376, 381
+  offset: 0, 0
+  index: -1
+Layer 6307
+  rotate: false
+  xy: 1754, 143
+  size: 290, 311
+  orig: 290, 311
+  offset: 0, 0
+  index: -1
+bong bay
+  rotate: false
+  xy: 818, 92
+  size: 323, 362
+  orig: 323, 362
+  offset: 0, 0
+  index: -1
+bong bay 1
+  rotate: false
+  xy: 0, 79
+  size: 433, 375
+  orig: 433, 375
+  offset: 0, 0
+  index: -1
+day 1
+  rotate: true
+  xy: 1143, 372
+  size: 82, 549
+  orig: 82, 549
+  offset: 0, 0
+  index: -1
+day 2
+  rotate: false
+  xy: 1754, 94
+  size: 88, 47
+  orig: 88, 47
+  offset: 0, 0
+  index: -1

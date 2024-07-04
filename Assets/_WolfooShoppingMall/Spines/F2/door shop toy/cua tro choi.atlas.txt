@@ -1,0 +1,48 @@
+
+cua tro choi.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 1615, 1169
+  size: 1606, 1204
+  orig: 1606, 1204
+  offset: 0, 0
+  index: -1
+canh 1
+  rotate: false
+  xy: 2821, 1887
+  size: 590, 888
+  orig: 590, 888
+  offset: 0, 0
+  index: -1
+canh 2
+  rotate: false
+  xy: 2489, 301
+  size: 763, 866
+  orig: 763, 866
+  offset: 0, 0
+  index: -1
+sau cua
+  rotate: false
+  xy: 1181, 265
+  size: 1306, 902
+  orig: 1306, 902
+  offset: 0, 0
+  index: -1
+sau cua 1
+  rotate: false
+  xy: 0, 1569
+  size: 1613, 1206
+  orig: 1613, 1206
+  offset: 0, 0
+  index: -1
+trc 1
+  rotate: true
+  xy: 0, 0
+  size: 1567, 1179
+  orig: 1567, 1179
+  offset: 0, 0
+  index: -1
